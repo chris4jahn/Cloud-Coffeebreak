@@ -1,6 +1,9 @@
 ---
+layout: post
 title: "Was ist Azure Governance?"
 date: 2024-03-18
+# subtitle: "This is the post subtitle."
+# background: '/PATH_TO_IMAGE'
 ---
 # Governance in der Cloud: Ein Leitfaden für den Einstieg
 
