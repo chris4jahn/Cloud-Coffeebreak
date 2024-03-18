@@ -1,5 +1,5 @@
-#theme: jekyll-theme-cayman
-remote_theme: jekyll-theme-clean-blog
+theme: jekyll-theme-minima
+#remote_theme: jekyll-theme-clean-blog
 title: Cloud Coffeebreak
 author: Christian Forjahn
 description: Dein Stopp für die Kaffeepause
