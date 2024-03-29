@@ -32,7 +32,7 @@ Das Cloud Adoption Framework (CAF) von Microsoft unterstützt dabei die wichtigs
 
 Heute wollen wir uns auf den letzten Punkt, die Governance konzentrieren. Um eine erfolgreiche Governance-Strategie für die Cloud zu entwickeln, solltest du die folgenden Schritte beachten:
 
-1. Definiere die Hierarchie: Lege fest, wie deine Cloud-Ressourcen organisiert werden sollen. Dies kann zum Beispiel durch die Verwendung von Departments, Accounts, Subscriptions, Resource Groups und Resources erfolgen. ([Link](/_posts/2024-03-29-azure-hierarchie))
+1. Definiere die Hierarchie: Lege fest, wie deine Cloud-Ressourcen organisiert werden sollen. Dies kann zum Beispiel durch die Verwendung von Departments, Accounts, Subscriptions, Resource Groups und Resources erfolgen. ([Link](/_posts/2024-03-29-azure-hierarchie.html))
 2. Erstelle Naming Conventions: Lege Regeln fest, wie deine Cloud-Ressourcen benannt werden sollen. Dies kann zum Beispiel durch die Verwendung von Naming Conventions für Subscriptions, Resource Groups und Resources erfolgen.
 3. Verwende Tags: Verwende Tags, um deine Cloud-Ressourcen logisch zu unterteilen. Dies kann zum Beispiel durch die Verwendung von Tags für Abrechnung, Management, operativen Zweck usw. erfolgen.
 4. Verwende Management Groups: Verwende Management Groups, um deine Cloud-Ressourcen zu verwalten. Management Groups ermöglichen es dir, Policies und Berechtigungen auf einer höheren Ebene zu verwalten.
