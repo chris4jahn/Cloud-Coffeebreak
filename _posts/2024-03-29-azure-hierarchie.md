@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Azure Governance"
+title: "Die Hierarchie von Management Groups"
 date: 2024-03-29
-subtitle: "Die Hierarchie von Management Groups"
+subtitle: "Azure Governance"
 background: '/img/posts/002.png'
 ---
 # Azure Governance: Die Hierarchie von Management Groups
