@@ -22,4 +22,4 @@ Bei virtuellen Maschinen hat es sich bewährt das Naming an das Schema der Resso
 Microsoft hat auf seiner Webseite eine sehr gute Zusammenfassung und Empfehlung erarbeitet, auf die ich hier verweisen möchte. 
 [Microsoft - Define your naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
 
-Dieser Post ist Teil der Serie ["Governance in der Cloud: Ein Leitfaden für den Einstieg"](2024-03-18-governance-in-der-cloud.md)
+Dieser Post ist Teil der Serie ["Governance in der Cloud: Ein Leitfaden für den Einstieg"](/2024/03/18/governance-in-der-cloud.html)
