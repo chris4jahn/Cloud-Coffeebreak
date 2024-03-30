@@ -46,5 +46,5 @@ Heute wollen wir uns auf den letzten Punkt, die Governance konzentrieren. Um ein
 Governance ist ein wichtiger Aspekt der Cloud-Nutzung, da sie sicherstellt, dass die Cloud-Ressourcen eines Unternehmens sicher, effizient und in Übereinstimmung mit den Unternehmensrichtlinien verwaltet werden. Unternehmen sollten eine Governance-Strategie für die Cloud entwickeln, indem sie die oben genannten Schritte beachten. Dies wird dazu beitragen, dass die Cloud-Ressourcen des Unternehmens sicher und effizient genutzt werden.
 
 Ich werde in weiteren Posts auf die einzelnen Punkte der Governance Strategie eingehen und sie hier verlinken.
-- ["Die Hierarchie mit Management Groups etablieren"](/2024/03/29/azure-hierarchie.html)
-- ["Azure Naming Conventions Best Practices"](/2024/03/30/azure-naming-conventions.html)
+- [Die Hierarchie mit Management Groups etablieren](/2024/03/29/azure-hierarchie.html)
+- [Azure Naming Conventions Best Practices](/2024/03/30/azure-naming-conventions.html)
