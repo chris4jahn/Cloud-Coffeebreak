@@ -7,3 +7,5 @@ description: Deine Tech Snacks für die Kaffeepause!
 #background: '/PATH_TO_IMAGE'
 linkedin_username: christian-forjahn
 google_analytics: G-1SDL4WXVJC
+plugins:
+  - jekyll-seo-tag
