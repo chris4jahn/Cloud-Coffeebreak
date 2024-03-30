@@ -34,8 +34,10 @@ Heute wollen wir uns auf den letzten Punkt, die Governance konzentrieren. Um ein
 
 1. Definiere die Hierarchie: Lege fest, wie deine Cloud-Ressourcen organisiert werden sollen. Dies kann zum Beispiel durch die Verwendung von Departments, Accounts, Subscriptions, Resource Groups und Resources erfolgen. 
 2. Erstelle Naming Conventions: Lege Regeln fest, wie deine Cloud-Ressourcen benannt werden sollen. Dies kann zum Beispiel durch die Verwendung von Naming Conventions für Subscriptions, Resource Groups und Resources erfolgen.
+Hier geht's zum weiterführenden Post ["Azure Naming Conventions Best Practices"](2024-03-30-azure-naming-conventions.md)
 3. Verwende Tags: Verwende Tags, um deine Cloud-Ressourcen logisch zu unterteilen. Dies kann zum Beispiel durch die Verwendung von Tags für Abrechnung, Management, operativen Zweck usw. erfolgen.
-4. Verwende Management Groups: Verwende Management Groups, um deine Cloud-Ressourcen zu verwalten. Management Groups ermöglichen es dir, Policies und Berechtigungen auf einer höheren Ebene zu verwalten.
+4. Verwende Management Groups: Verwende Management Groups, um deine Cloud-Ressourcen zu verwalten. Management Groups ermöglichen es dir, Policies und Berechtigungen auf einer höheren Ebene zu verwalten. 
+Hier geht's zum weiterführenden Post ["Die Hierarchie mit Management Groups etablieren"](2024-03-29-azure-hierarchie.md)
 5. Verwende Policies: Verwende Policies, um Regeln und Richtlinien für die Nutzung deiner Cloud-Ressourcen durchzusetzen. Policies können zum Beispiel verwendet werden, um Naming Conventions zu erzwingen oder Berechtigungen zu verwalten.
 6. Stelle sicher, dass die Sicherheit gewährleistet ist: Stelle sicher, dass die Sicherheit deiner Cloud-Ressourcen durch die Verwendung von RBAC, PIM, Conditional Access und Break Glass Accounts gewährleistet ist.
 7. Verwende Azure Monitor: Verwende Azure Monitor, um das Monitoring deiner Cloud-Ressourcen zu gewährleisten.
