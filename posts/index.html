@@ -15,14 +15,13 @@ background: '/img/bg-post.jpeg'
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Author: 
+  <p class="post-meta">Posted by  
     {% if post.author %}
     {{ post.author }}
     {% else %}
     {{ site.author }}
     {% endif %}
-    , {{ post.date | date: %d.%m.%Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
+    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}  </p>
 </article>
 
 <hr>
@@ -36,11 +35,11 @@ background: '/img/bg-post.jpeg'
 
   {% if paginator.previous_page %}
   <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Neuere<span class="d-none d-md-inline"> Posts</span></a>
+    Newer<span class="d-none d-md-inline"> Posts</span></a>
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&Auml;ltere<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
   {% endif %}
 
 </div>
