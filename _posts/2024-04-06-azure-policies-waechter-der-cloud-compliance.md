@@ -30,8 +30,6 @@ Navigiere zum [Azure Portal](https://portal.azure.com) und nutze die Suchfunktio
 
 <img src="/img/01AzurePolicy.png" width="750" />
 
-{% responsive_image path: /img/01AzurePolicy.png %}
-
 Hier kannst du die Option "Assign Policy" auswählen, um eine bestehende Policy auszuwählen und anzuwenden.
 
 <img src="/img/02AzurePolicyAssignPolicy.png" width="750" />

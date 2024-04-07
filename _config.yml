@@ -9,13 +9,3 @@ linkedin_username: christian-forjahn
 relative_links:
   enabled:     true
   collections: true
-
-plugins:
-  - jekyll-responsive-image
-
-responsive_image:
-  template: _includes/srcset.html
-  sizes:
-    - width: 320
-    - width: 480
-    - width: 750
