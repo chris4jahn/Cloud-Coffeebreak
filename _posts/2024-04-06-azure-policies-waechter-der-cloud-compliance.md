@@ -28,7 +28,7 @@ Insbesondere auch im Zusammenspiel mit Defender for Cloud um regulatorische Anfo
 
 Navigiere zum [Azure Portal](https://portal.azure.com) und nutze die Suchfunktion. Suche nach "Policy" und wähle den Eintrag aus.
 
-<img src="/img/01AzurePolicy.png "width="200" />
+<img src="/img/01AzurePolicy.png" width="200" />
 # ![Azure Policy suchen](/img/01AzurePolicy.png)
 Hier kannst du die Option "Assign Policy" auswählen, um eine bestehende Policy auszuwählen und anzuwenden.
 
