@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Governance in der Cloud"
-date: 2024-03-18
 subtitle: "Ein Leitfaden für den Einstieg"
 background: '/img/posts/001.png'
 ---
@@ -47,4 +46,3 @@ Governance ist ein wichtiger Aspekt der Cloud-Nutzung, da sie sicherstellt, dass
 
 Ich werde in weiteren Posts auf die einzelnen Punkte der Governance Strategie eingehen und sie hier verlinken.
 - [Die Hierarchie mit Management Groups etablieren](2024-03-29-azure-hierarchie.md)
-- [Azure Naming Conventions Best Practices](2024-03-30-azure-naming-conventions.md)
