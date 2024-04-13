@@ -6,7 +6,7 @@ description: Deine Tech Snacks für die Kaffeepause!
 ### weitere Theme-bezogene Einstellungen
 #background: '/PATH_TO_IMAGE'
 linkedin_username: christian-forjahn
-google_analytics: G-1SDL4WXVJC
+#google_analytics: G-1SDL4WXVJC
 relative_links:
   enabled:     true
   collections: true
