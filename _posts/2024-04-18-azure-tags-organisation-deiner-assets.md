@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Tags: Organisation für deine Cloud Assets"
-date: 2024-04-12
+date: 2024-04-18
 subtitle: "Azure Governance"
 background: '/img/TagsAnlegen.png'
 ---
