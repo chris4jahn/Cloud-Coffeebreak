@@ -34,7 +34,6 @@ Microsoft empfiehlt folgende Überlegungen für die Tags:
 ## Was sind übliche Usecases für Tags?
 
 - Admins können Ressourcen schnell finden, die
-
   - einem definierten Workload, bspw. alle Bestandteile einer Applikation
   - einer Umgebung (Dev, Test, Prod)
   - bestimmten Business Ownern
