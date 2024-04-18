@@ -24,7 +24,7 @@ Insbesondere auch im Zusammenspiel mit Defender for Cloud um regulatorische Anfo
 - **Kostenkontrolle:** Vermeidung unnötiger Ausgaben durch Durchsetzung von Ressourcenbeschränkungen
 - **Ressourcenmanagement:** Konsistente Anwendung von Tags und Namenskonventionen über Ressourcengruppen hinweg
 
-## Wie konfiguriere ich Azure Policies?
+## Wie konfigurierst du Azure Policies?
 
 Navigiere zum [Azure Portal](https://portal.azure.com) und nutze die Suchfunktion. Suche nach "Policy" und wähle den Eintrag aus.
 

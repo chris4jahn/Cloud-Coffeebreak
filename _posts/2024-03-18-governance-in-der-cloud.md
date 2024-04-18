@@ -31,10 +31,10 @@ Das Cloud Adoption Framework (CAF) von Microsoft unterstützt dabei die wichtigs
 
 Heute wollen wir uns auf den letzten Punkt, die Governance konzentrieren. Um eine erfolgreiche Governance-Strategie für die Cloud zu entwickeln, solltest du die folgenden Schritte beachten:
 
-1. Definiere die Hierarchie: Lege fest, wie deine Cloud-Ressourcen organisiert werden sollen. Dies kann zum Beispiel durch die Verwendung von Departments, Accounts, Subscriptions, Resource Groups und Resources erfolgen. 
+1. Definiere die Hierarchie: Lege fest, wie deine Cloud-Ressourcen organisiert werden sollen. Dies kann zum Beispiel durch die Verwendung von Departments, Accounts, Subscriptions, Resource Groups und Resources erfolgen.
 2. Erstelle Naming Conventions: Lege Regeln fest, wie deine Cloud-Ressourcen benannt werden sollen. Dies kann zum Beispiel durch die Verwendung von Naming Conventions für Subscriptions, Resource Groups und Resources erfolgen.
 3. Verwende Tags: Verwende Tags, um deine Cloud-Ressourcen logisch zu unterteilen. Dies kann zum Beispiel durch die Verwendung von Tags für Abrechnung, Management, operativen Zweck usw. erfolgen.
-4. Verwende Management Groups: Verwende Management Groups, um deine Cloud-Ressourcen zu verwalten. Management Groups ermöglichen es dir, Policies und Berechtigungen auf einer höheren Ebene zu verwalten. 
+4. Verwende Management Groups: Verwende Management Groups, um deine Cloud-Ressourcen zu verwalten. Management Groups ermöglichen es dir, Policies und Berechtigungen auf einer höheren Ebene zu verwalten.
 5. Verwende Policies: Verwende Policies, um Regeln und Richtlinien für die Nutzung deiner Cloud-Ressourcen durchzusetzen. Policies können zum Beispiel verwendet werden, um Naming Conventions zu erzwingen oder Berechtigungen zu verwalten.
 6. Stelle sicher, dass die Sicherheit gewährleistet ist: Stelle sicher, dass die Sicherheit deiner Cloud-Ressourcen durch die Verwendung von RBAC, PIM, Conditional Access und Break Glass Accounts gewährleistet ist.
 7. Verwende Azure Monitor: Verwende Azure Monitor, um das Monitoring deiner Cloud-Ressourcen zu gewährleisten.
@@ -45,6 +45,8 @@ Heute wollen wir uns auf den letzten Punkt, die Governance konzentrieren. Um ein
 Governance ist ein wichtiger Aspekt der Cloud-Nutzung, da sie sicherstellt, dass die Cloud-Ressourcen eines Unternehmens sicher, effizient und in Übereinstimmung mit den Unternehmensrichtlinien verwaltet werden. Unternehmen sollten eine Governance-Strategie für die Cloud entwickeln, indem sie die oben genannten Schritte beachten. Dies wird dazu beitragen, dass die Cloud-Ressourcen des Unternehmens sicher und effizient genutzt werden.
 
 Ich werde in weiteren Posts auf die einzelnen Punkte der Governance Strategie eingehen und sie hier verlinken.
+
 - [Die Hierarchie mit Management Groups etablieren](2024-03-29-azure-hierarchie.md)
 - [Azure Naming Conventions Best Practices](2024-03-30-azure-naming-conventions.md)
 - [Azure Policies: Der Wächter deiner Cloud-Compliance](2024-04-06-azure-policies-waechter-der-cloud-compliance.md)
+- [Azure Tags: Organisation für deine Cloud Assets](2024-04-12-azure-tags-organisation-deiner-assets.md)
