@@ -30,6 +30,7 @@ Microsoft empfiehlt folgende Überlegungen für die Tags:
 | Buchhaltung                | Tags, die eine Nachverfolgung der Kosten im Zusammenhang mit Ressourcenvorgängen ermöglichen. z.B. Abteilung, Projekt, Region usw. |
 | Zweck                      | Geschäftsprozess, geschäftliche Bedeutung, Auswirkung auf den Umsatz.                                                              |
 
+
 ## Was sind übliche Usecases für Tags?
 
 - Admins können Ressourcen schnell finden, die
@@ -44,6 +45,7 @@ Microsoft empfiehlt folgende Überlegungen für die Tags:
 - Datenklassifizierungen und die Auswirkungen auf die Sicherheit schaffen Übersicht, falls es zu Sicherheitsvorfällen kommt
 - Tags helfen bei der Auswertung von Governance Anforderungen
 - Automatisierung: Ein passendes Organisationsschema ermöglicht die vorteilhafte Nutzung der Automatisierung im Rahmen der Ressourcenerstellung, der Betriebsüberwachung und der Erstellung von DevOps-Prozessen. Eine Automatisierung erleichtert der IT-Abteilung ebenfalls die Verwaltung von die Ressourcen
+
 
 ## So erstellst du Tags im Azure Portal
 
