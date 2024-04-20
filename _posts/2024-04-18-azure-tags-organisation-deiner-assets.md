@@ -7,7 +7,7 @@ background: '/img/TagsAnlegen.png'
 ---
 # Azure Tags: Organisation für deine Cloud Assets
 
-Azure Tags helfen dir dabei einen Überblick über deine Cloud Ressourcen zu bewahren. Sie sind ein wichtiges Werkzeug bei der Organisation und sollten möglichst von Anfang an. oder zumindest frühzeitig etabliert und durchgesetzt werden. Von den Tags hängt auch die [Naming Convention](2024-03-30-azure-naming-conventions.md) ab, weshalb die beiden Punkte gerne zusammen bearbeitet werden.
+Azure Tags helfen dir dabei einen Überblick über deine Cloud Ressourcen zu bewahren. Sie sind ein wichtiges Werkzeug bei der Organisation und sollten möglichst von Anfang an, oder zumindest frühzeitig etabliert und durchgesetzt werden. Die Tags hängen auch mit der [Naming Convention](2024-03-30-azure-naming-conventions.md) zusammen, weshalb die beiden Punkte gerne zusammen bearbeitet werden.
 
 ## So erstellst du deine Tag Strategie
 
@@ -59,9 +59,15 @@ In der Tags-Übersicht siehst du welche Tags in deiner Subscription verwendet we
 
 <img src="/img/TagsUebersicht.png" width="720" />
 
+Auch beim erstellen von neuen Ressourcen gibt es immer einen Reiter, um die Tags zu hinterlegen. 
+
 ## Wie stellst du sicher, dass alle Ressourcen getaggt werden?
 
-Dank [Azure Policies](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) kannst du Tags von Ressourcengruppen vererben, oder sogar bei der Erstellung von Ressourcen verpflichtend machen. Auf diese Weise kannst du die Compliance deiner Ressourcen monitoren, oder sogar erzwingen.
+Dank [Azure Policies](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) kannst du Tags von Ressourcengruppen vererben, oder sogar bei der Erstellung von Ressourcen verpflichtend machen. 
+
+Wenn du Infrastructure as Code (IaC) nutzt, dann können die Tags hier ebenso als verpflichtende Parameter hinterlegt werden. 
+
+Mit diesen Mitteln sorgst du dafür, dass deine Ressourcen alle einheitlich mit den notwendigen Tags versehen werden und kannst du die Compliance monitoren, oder sogar erzwingen.
 
 ## Fazit
 
