@@ -41,6 +41,9 @@ Fördern Sie die Zusammenarbeit im Team mit Microsoft 365 und Microsoft Teams.
 
 FinOps bedeutet immer Kompromisse in Bezug auf Geschwindigkeit (Time-to-Market), Qualität (Performance, Zuverlässigkeit, Verfügbarkeit) und Kosten einzugehen. Ziel ist es nicht die günstigste Lösung zu finden, sondern den größten Business Value zu entwickeln. 
 
+FinOps kann Silos aufbrechen. Business, Finance und das Engineering muss eng zusammenarbeiten, um alle Informationen zusammen zu tragen und so die richtigen Entscheidungen treffen zu können, immer mit dem Ziel das Business Value zu maximieren. 
+"without collaboration decisions at based on partial data. it's like finance cutting costs without consulting engineers first." Joseph Marino (Microsoft)
+
 https://learn.microsoft.com/de-de/cloud-computing/finops/overview
 
 https://learn.microsoft.com/de-de/cloud-computing/finops/conduct-iteration
