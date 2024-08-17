@@ -14,6 +14,7 @@ FinOps ist eine Disziplin, die Finanzverwaltung mit Cloud Engineering und dem Be
 
 ## FinOps Phasen und welche Azure Tools dafür relevant sind
 In den folgenden Zeilen gehen wir auf die drei Phasen von FinOps ein und welche Tools dir bei der Umsetzung der Phasen in Azure helfen
+<img src="/img/005.png" width="720" />
 ### Inform
 Die Informationsphase ist der erste Schritt auf der FinOps-Journey. Sammle zunächst Daten aus verschiedenen Quellen, um Einblicke in deine Cloudnutzungs- und Ausgabenmuster zu erhalten. In dieser Phase konzentrierst du dich auf Berichterstellung, Anomalieerkennung, Benchmarktests, Kostenzuordnung, Taxonomie, Tagging, Prognosen und Budgetierung. 
 
