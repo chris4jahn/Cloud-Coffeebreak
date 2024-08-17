@@ -32,7 +32,7 @@ Die Optimierungsphase ist der zweite Schritt der FinOps-Journey. Identifiziere u
 ### Operate
 Die Betriebsphase ist der letzte Schritt auf der FinOps-Journey. Richte dein Framework für die fortlaufende Cloud Kostenverwaltung und [Governance](2024-03-18-governance-in-der-cloud.md) ein, damit deine Organisation langfristig eine optimale Cloudnutzung und Kosteneffizienz gewährleisten kann. In dieser Phase konzentrierst du dich auf die organisatorische und kulturelle Einführung bewährter FinOps-Methoden. 
 
-* Lege Richtlinien für deine Ressourcen fest, um Cloud-Compliance zu gewährleisten, fehlerhafte Konfigurationen zu vermeiden und eine konsistente Ressourcenkontrolle mit Azure Policy durchzusetzen
+* Lege Richtlinien für deine Ressourcen fest, um Cloud-Compliance zu gewährleisten, fehlerhafte Konfigurationen zu vermeiden und eine konsistente Ressourcenkontrolle mit [Azure Policy](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) durchzusetzen
 * Vereinfache und beschleunige deine Cloud Journey mit Erkenntnissen aus Azure Migrate und Unterstützung von Experten eines Microsoft Partners, wie die <a href="https://www.provectus.de" target="_blank">Provectus Technologies</a>
 * Nutze das Cloud Adoption Framework und Well-Architected Framework, um Best Practices zur Verbesserung deiner Cloud Journey einzuführen
 * Ermögliche es deinem Team sich fortzubilden, um die Produktivität zu steigern, z.B. durch Microsoft-Zertifizierungen
