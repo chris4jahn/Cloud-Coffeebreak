@@ -13,6 +13,7 @@ FinOps steht für Financial Operations und beschreibt die Disziplin Finanzverwal
 FinOps ist eine Disziplin, die Finanzverwaltung mit Cloud Engineering und dem Betrieb kombiniert, um Unternehmen ein besseres Verständnis ihrer Cloudausgaben zu ermöglichen. Zudem hilft es ihnen, fundierte Entscheidungen zu treffen, wie sie ihre Cloudkosten zuordnen und verwalten. Wichtig: Das Ziel von FinOps besteht nicht darin, Geld zu sparen, sondern den Umsatz oder den Business Value über die Cloud zu maximieren. Deine Kosten dürfen steigen, wenn der Business Value mindestens in gleichem Maße ansteigt. Die Verknüpfung von Kosten und Nutzen sind ein wichtiger Punkt bei der Cloud Journey.
 
 ## FinOps Phasen und welche Azure Tools dafür relevant sind
+In den folgenden Zeilen gehen wir auf die drei Phasen von FinOps ein und welche Tools dir bei der Umsetzung der Phasen in Azure helfen
 ### Inform
 Die Informationsphase ist der erste Schritt auf der FinOps-Journey. Sammle zunächst Daten aus verschiedenen Quellen, um Einblicke in deine Cloudnutzungs- und Ausgabenmuster zu erhalten. In dieser Phase konzentrierst du dich auf Berichterstellung, Anomalieerkennung, Benchmarktests, Kostenzuordnung, Taxonomie, Tagging, Prognosen und Budgetierung. 
 
