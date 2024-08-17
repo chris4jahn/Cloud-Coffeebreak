@@ -5,6 +5,7 @@ date: 2024-05-22
 subtitle: "Welche Tools unterstützen dich dabei?"
 background: '/img/posts/004.png'
 ---
+# Cloud Cost Optimization Mit Hilfe von Azure Tools
 Die Cloud bringt eine neue Form des Deployments von Ressourcen mit sich und auch eine neue Kostenstruktur. IT-Kosten werden in der Cloud auf eine andere Art und Weise budgetiert, zugeordnet und reportet. Es ist gar nicht so einfach das variable Kostenmodell (OPex) zu verwalten, es lässt andererseits eine präzise Zuordnung der Kosten zu. Welche organisatorischen und kulturellen Veränderungen notwendig sind, darum geht es bei FinOps. In diesem Artikel werden wir uns auf die Azure Tools konzentrieren, die dich bei unterstützen. 
 
 ## Definition von FinOps
