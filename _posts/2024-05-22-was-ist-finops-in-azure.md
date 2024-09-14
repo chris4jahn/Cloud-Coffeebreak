@@ -5,7 +5,6 @@ date: 2024-05-22
 subtitle: "Welche Tools unterstützen dich dabei?"
 background: '/img/posts/004.png'
 ---
-# Cloud Cost Optimization Mit Hilfe von Azure Tools
 Die Cloud bringt eine neue Form des Deployments von Ressourcen mit sich und auch eine neue Kostenstruktur. IT-Kosten werden in der Cloud auf eine andere Art und Weise budgetiert, zugeordnet und reportet. Es ist gar nicht so einfach das variable Kostenmodell (OPex) zu verwalten, es lässt andererseits eine präzise Zuordnung der Kosten zu. Welche organisatorischen und kulturellen Veränderungen notwendig sind, darum geht es bei FinOps. In diesem Artikel werden wir uns auf die Azure Tools konzentrieren, die dich bei unterstützen. 
 
 ## Definition von FinOps
@@ -15,7 +14,7 @@ FinOps ist eine Disziplin, die Finanzverwaltung mit Cloud Engineering und dem Be
 
 ## FinOps Phasen und welche Azure Tools dafür relevant sind
 In den folgenden Zeilen gehen wir auf die drei Phasen von FinOps ein und welche Tools dir bei der Umsetzung der Phasen in Azure helfen
-<img src="/img/005.png" width="720" />
+<img class="container" src="/img/005.png" />
 ### Inform
 Die Informationsphase ist der erste Schritt auf der FinOps-Journey. Sammle zunächst Daten aus verschiedenen Quellen, um Einblicke in deine Cloudnutzungs- und Ausgabenmuster zu erhalten. In dieser Phase konzentrierst du dich auf Berichterstellung, Anomalieerkennung, Benchmarktests, Kostenzuordnung, Taxonomie, Tagging, Prognosen und Budgetierung. 
 

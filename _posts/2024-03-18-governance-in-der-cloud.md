@@ -4,8 +4,6 @@ title: "Governance in der Cloud"
 subtitle: "Ein Leitfaden für den Einstieg"
 background: '/img/posts/001.png'
 ---
-# Governance in der Cloud: Ein Leitfaden für den Einstieg
-
 Governance ist ein wichtiger Aspekt der Cloud-Nutzung, da sie sicherstellt, dass die Cloud-Ressourcen eines Unternehmens sicher, effizient und compliant verwaltet werden. In diesem Blogartikel werden wir einige wichtige Punkte erläutern, die du beachten solltest, wenn du eine Governance-Strategie für die Cloud entwickelst.
 
 ## Was ist Governance?

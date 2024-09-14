@@ -5,7 +5,6 @@ date: 2024-03-30
 subtitle: "Azure Governance"
 background: '/img/posts/003.png'
 ---
-# Azure Naming Conventions
 Namens Konventionen sind wichtig, da sie dabei helfen Ressourcen schnell zu identifizieren. Um welchen Typ einer Ressource handelt es sich? Wo liegt sie? Was ist die Aufgabe der Ressourcen? Usw. 
 
 ## Definiere deine Namensbestandteile

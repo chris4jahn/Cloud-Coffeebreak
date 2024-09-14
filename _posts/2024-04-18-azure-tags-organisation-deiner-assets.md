@@ -5,8 +5,6 @@ date: 2024-04-18
 subtitle: "Azure Governance"
 background: '/img/TagsAnlegen.png'
 ---
-# Azure Tags: Organisation für deine Cloud Assets
-
 Azure Tags helfen dir dabei einen Überblick über deine Cloud Ressourcen zu bewahren. Sie sind ein wichtiges Werkzeug bei der Organisation und sollten möglichst von Anfang an, oder zumindest frühzeitig etabliert und durchgesetzt werden. Die Tags hängen auch mit der [Naming Convention](2024-03-30-azure-naming-conventions.md) zusammen, weshalb die beiden Punkte gerne zusammen bearbeitet werden.
 
 ## So erstellst du deine Tag Strategie
@@ -53,11 +51,11 @@ Vorsicht: Du solltest Tags vorgeben, die verwendet werden sollen, da ansonsten s
 
 Tags sind über jede Ressourcengruppe, oder Ressourcen verfügbar. Du kannst über den Punkt "Tag" neue Tags anlegen, oder bestehende bearbeiten.
 
-<img src="/img/TagsAnlegen.png" width="720" />
+<img class="container" src="/img/TagsAnlegen.png" />
 
 In der Tags-Übersicht siehst du welche Tags in deiner Subscription verwendet werden.
 
-<img src="/img/TagsUebersicht.png" width="720" />
+<img class="container" src="/img/TagsUebersicht.png" />
 
 Auch beim erstellen von neuen Ressourcen gibt es immer einen Reiter, um die Tags zu hinterlegen. 
 
