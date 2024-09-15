@@ -5,8 +5,6 @@ date: 2024-03-29
 subtitle: "Azure Governance"
 background: '/img/posts/002.png'
 ---
-# Azure Governance: Die Hierarchie mit Management Groups etablieren
-
 Azure Management Groups bieten eine effiziente Möglichkeit, den Zugriff, Richtlinien und die Konformität über viele Azure Subscriptions hinweg zu verwalten. Sie ermöglichen es, Subscriptions in einer Hierarchie zu organisieren, die eine einheitliche Richtlinien- und Zugriffsverwaltung unterstützt.
 
 ## Wichtige Fakten zu Management Groups
@@ -31,4 +29,4 @@ In der **Azure-Cloud** ist eine durchdachte Organisation deiner Ressourcen entsc
 
 Mit Azure Management Groups können komplexe Policies und Berechtigungsstrukturen des Organisation und der Fachbereiche in der Azure Cloud abgebildet werden. Meiner Erfahrung nach, haben die Management Groups ihre Daseinsberechtigung, sobald mehr als eine Subscription genutzt wird. Auf der obersten Ebene kann die zentrale IT sicherstellen, dass Break Glass Accounts berechtigt sind, genauso wie die Administratoren. Darunter können dann Strukturen aufgebaut werden, die die Anforderungen von Fachabteilungen und der IT erfüllen.
 
-Dieser Post ist Teil der Serie ["Governance in der Cloud: Ein Leitfaden für den Einstieg"](/2024/03/18/governance-in-der-cloud.html)
+Dieser Post ist Teil der Serie ["Governance in der Cloud: Ein Leitfaden für den Einstieg"](2024-03-18-governance-in-der-cloud.md)

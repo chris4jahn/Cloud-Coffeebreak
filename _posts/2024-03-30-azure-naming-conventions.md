@@ -5,7 +5,6 @@ date: 2024-03-30
 subtitle: "Azure Governance"
 background: '/img/posts/003.png'
 ---
-# Azure Naming Conventions
 Namens Konventionen sind wichtig, da sie dabei helfen Ressourcen schnell zu identifizieren. Um welchen Typ einer Ressource handelt es sich? Wo liegt sie? Was ist die Aufgabe der Ressourcen? Usw. 
 
 ## Definiere deine Namensbestandteile
@@ -22,4 +21,4 @@ Bei virtuellen Maschinen hat es sich bewährt das Naming an das Schema der Resso
 Microsoft hat auf seiner Webseite eine sehr gute Zusammenfassung und Empfehlung erarbeitet, auf die ich hier verweisen möchte. 
 [Microsoft - Define your naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
 
-Dieser Post ist Teil der Serie ["Governance in der Cloud: Ein Leitfaden für den Einstieg"](/2024/03/18/governance-in-der-cloud.html)
+Dieser Post ist Teil der Serie ["Governance in der Cloud: Ein Leitfaden für den Einstieg"](2024-03-18-governance-in-der-cloud.md)

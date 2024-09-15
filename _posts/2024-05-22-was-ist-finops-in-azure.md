@@ -13,6 +13,8 @@ FinOps steht für Financial Operations und beschreibt die Disziplin Finanzverwal
 FinOps ist eine Disziplin, die Finanzverwaltung mit Cloud Engineering und dem Betrieb kombiniert, um Unternehmen ein besseres Verständnis ihrer Cloudausgaben zu ermöglichen. Zudem hilft es ihnen, fundierte Entscheidungen zu treffen, wie sie ihre Cloudkosten zuordnen und verwalten. Wichtig: Das Ziel von FinOps besteht nicht darin, Geld zu sparen, sondern den Umsatz oder den Business Value über die Cloud zu maximieren. Deine Kosten dürfen steigen, wenn der Business Value mindestens in gleichem Maße ansteigt. Die Verknüpfung von Kosten und Nutzen sind ein wichtiger Punkt bei der Cloud Journey.
 
 ## FinOps Phasen und welche Azure Tools dafür relevant sind
+In den folgenden Zeilen gehen wir auf die drei Phasen von FinOps ein und welche Tools dir bei der Umsetzung der Phasen in Azure helfen
+<img class="container" src="/img/005.png" />
 ### Inform
 Die Informationsphase ist der erste Schritt auf der FinOps-Journey. Sammle zunächst Daten aus verschiedenen Quellen, um Einblicke in deine Cloudnutzungs- und Ausgabenmuster zu erhalten. In dieser Phase konzentrierst du dich auf Berichterstellung, Anomalieerkennung, Benchmarktests, Kostenzuordnung, Taxonomie, Tagging, Prognosen und Budgetierung. 
 
@@ -32,7 +34,7 @@ Die Optimierungsphase ist der zweite Schritt der FinOps-Journey. Identifiziere u
 ### Operate
 Die Betriebsphase ist der letzte Schritt auf der FinOps-Journey. Richte dein Framework für die fortlaufende Cloud Kostenverwaltung und [Governance](2024-03-18-governance-in-der-cloud.md) ein, damit deine Organisation langfristig eine optimale Cloudnutzung und Kosteneffizienz gewährleisten kann. In dieser Phase konzentrierst du dich auf die organisatorische und kulturelle Einführung bewährter FinOps-Methoden. 
 
-* Lege Richtlinien für deine Ressourcen fest, um Cloud-Compliance zu gewährleisten, fehlerhafte Konfigurationen zu vermeiden und eine konsistente Ressourcenkontrolle mit Azure Policy durchzusetzen
+* Lege Richtlinien für deine Ressourcen fest, um Cloud-Compliance zu gewährleisten, fehlerhafte Konfigurationen zu vermeiden und eine konsistente Ressourcenkontrolle mit [Azure Policy](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) durchzusetzen
 * Vereinfache und beschleunige deine Cloud Journey mit Erkenntnissen aus Azure Migrate und Unterstützung von Experten eines Microsoft Partners, wie die <a href="https://www.provectus.de" target="_blank">Provectus Technologies</a>
 * Nutze das Cloud Adoption Framework und Well-Architected Framework, um Best Practices zur Verbesserung deiner Cloud Journey einzuführen
 * Ermögliche es deinem Team sich fortzubilden, um die Produktivität zu steigern, z.B. durch Microsoft-Zertifizierungen
