@@ -1,6 +1,5 @@
-#theme: jekyll-theme-minima
-#remote_theme: chris4jahn/Cloud-Coffeebreak
-theme: jekyll-theme-clean-blog
+remote_theme: chris4jahn/Cloud-Coffeebreak
+#theme: jekyll-theme-clean-blog
 title: Cloud Coffeebreak
 author: Christian Forjahn
 description: Deine Tech Snacks für die Kaffeepause!
