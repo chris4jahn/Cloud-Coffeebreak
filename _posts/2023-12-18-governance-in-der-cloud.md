@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Governance in der Cloud"
+date: 2023-12-18
 subtitle: "Ein Leitfaden für den Einstieg"
 background: '/img/posts/001.png'
 ---

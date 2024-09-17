@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Die Hierarchie mit Management Groups etablieren"
-date: 2024-03-29
+date: 2024-01-28
 subtitle: "Azure Governance"
 background: '/img/posts/002.png'
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Policies: Der Wächter deiner Cloud-Compliance"
-date: 2024-04-06
+date: 2024-02-26
 subtitle: "Azure Governance"
 background: '/img/02AzurePolicyAssignPolicy.png'
 ---
@@ -30,23 +30,23 @@ Navigiere zum [Azure Portal](https://portal.azure.com) und nutze die Suchfunktio
 
 Hier kannst du die Option "Assign Policy" auswählen, um eine bestehende Policy auszuwählen und anzuwenden.
 
-<img class="container" src="/img/02AzurePolicyAssignPolicy.png" />
+<img class="img-fluid" src="/img/02AzurePolicyAssignPolicy.png" />
 
 Wähle die gewünschte Policy aus. In meinem Fall, habe ich eine der Standard Policies ausgewählt, die nahezu bei jedem Kunden Anwendung findet. Mit der Policy "Allowed resource deployment regions" schränkst du ein, in welchen Regionen Azure Ressourcen erstellt werden dürfen.
 
-<img class="container" src="/img/03AzurePolicyAssignBasic.png" />
+<img class="img-fluid" src="/img/03AzurePolicyAssignBasic.png" />
 
 Unter den Parameter Settings kannst du auswählen, in welchen Regionen die Ressourcen angelegt werden dürfen und für welchen Scope das gilt. In meinem Fall ist der Scope die "Tenant Root Group". Das bedeutet es gilt für alle darunterligenden Subscriptions. Ich habe mich für dieses Beispiel auf die Regionen in Deutschland beschränkt. Da es tlw. Ressourcen gibt, die global bereitgestellt werden, wähle ich auch diese mit aus. Ansonsten können manche Ressourcen wie z.B. Entra ID, Azure Traffic Manager, oder Azure DNS nicht erstellt werden.
 
 Hinweis: Da noch nicht alle Ressourcen in den deutschen Regionen bereitstehen, empfehle ich die Settings so nur bedingt.
 
-<img class="container" src="/img/04AzurePolicyParameter.png" />
+<img class="img-fluid" src="/img/04AzurePolicyParameter.png" />
 
 Mit der "Non Compliance Message" kann ich definieren, welche Meldung ein Administrator erhält, wenn er versucht eine Ressource z.B. in den USA zu erstellen. Das hilft, dem Admin zu verstehen, warum sein Deployment nicht klappt.
 
 Tipp: Es macht Sinn hier weiterführende Informationen zu hinterlegen, z.B. wen der Benutzer ansprechen kann.
 
-<img class="container" src="/img/05AzurePolicyNonComplianceMessage.png" />
+<img class="img-fluid" src="/img/05AzurePolicyNonComplianceMessage.png" />
 
 Neben den bereits existenten Policies können auch eigene erstellt werden.
 
