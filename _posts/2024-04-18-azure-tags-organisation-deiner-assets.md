@@ -51,11 +51,11 @@ Vorsicht: Du solltest Tags vorgeben, die verwendet werden sollen, da ansonsten s
 
 Tags sind über jede Ressourcengruppe, oder Ressourcen verfügbar. Du kannst über den Punkt "Tag" neue Tags anlegen, oder bestehende bearbeiten.
 
-<img class="container" src="/img/TagsAnlegen.png" />
+<img class="img-fluid" src="/img/TagsAnlegen.png" />
 
 In der Tags-Übersicht siehst du welche Tags in deiner Subscription verwendet werden.
 
-<img class="container" src="/img/TagsUebersicht.png" />
+<img class="img-fluid" src="/img/TagsUebersicht.png" />
 
 Auch beim erstellen von neuen Ressourcen gibt es immer einen Reiter, um die Tags zu hinterlegen. 
 
