@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Policies: Der Wächter deiner Cloud-Compliance"
-date: 2024-04-06
+date: 2024-02-26
 subtitle: "Azure Governance"
 background: '/img/02AzurePolicyAssignPolicy.png'
 ---
