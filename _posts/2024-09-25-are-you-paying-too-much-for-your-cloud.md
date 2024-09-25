@@ -2,7 +2,7 @@
 layout: post
 title: "Are you paying too much for your cloud?"
 date: 2024-09-25
-subtitle: "How Azure Cost Management helps finding out"
+subtitle: "Azure Cost Optimization Part 0"
 background: '/img/posts/004.png'
 ---
 I bet you are paying too much for your cloud services. Why I think I know that? Because I guess everyone does. The only person that is not paying too much, is the person not using cloud services. What do you think?
@@ -18,14 +18,13 @@ When you are at the beginning of your cloud optimization journey you are good no
 <img src="/img/posts/004.png" class="img-fluid"/>
 
 ## Take 7 steps to optimize your cloud in Azure
-I will go into detail on each of the 7 bulletpoints in an upcoming series
-1. The first and most important step is to getting to know your costs. Start using the Azure Cost Management and dive into your costs over the last months or years. 
-2. Create Alerts for budgets and anomalies
-3. Identify cloud waste. 
-4. Rightsize your resources. 
-5. Turn services off if they are not used. 
-6. Start small with commitments. 
-7. Last but not least bring cloud optimization into your organization 
+1. Azure Cost Optimization Part 1 - Know your costs 
+2. Azure Cost Optimization Part 2 - Stay alert
+3. Azure Cost Optimization Part 3 - Identify cloud waste 
+4. Azure Cost Optimization Part 4 - Rightsize your resources
+5. Azure Cost Optimization Part 5 - Turn off if not needed  
+6. Azure Cost Optimization Part 6 - Start small with commitments
+7. Azure Cost Optimization Part 7 - Bring cloud optimization into your organization 
 Stay tuned! I will dive into each topic in a series of blog posts. The first will be available soon and cover the first phase, where we are diving into our past costs to get a feeling of it.
 
 ## Cost optimization is no one-stop-shop, it's a process
