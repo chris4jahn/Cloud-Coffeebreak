@@ -7,7 +7,8 @@ background: '/img/posts/004.png'
 ---
 I bet you are paying too much for your cloud services. Why I think I know that? Because I guess everyone does. The only person that is not paying too much, is the person not using cloud services. What do you think?
 
-Do you know someone that was suprised by his cloud bill? I guess everyone knows a story. I had a customer that used a lot of SQL databases in Azure. As he had a multi-client service and separated data in databases this lead to increasing cloud bills as more customers were onboarded to their solution. As I saw the metrics for the databases we discussed possible solutions and finally threw the databases into an Elastic Pool which shares performance over multiple databases. Saving ~80%. 
+Do you know someone that was suprised by his cloud bill? I guess everyone knows a story. 
+I had a customer that used a lot of SQL databases in Azure. As he had a multi-client service and separated data in databases this lead to increasing cloud bills as more customers were onboarded to their solution. As I saw the metrics for the databases we discussed possible solutions and finally threw the databases into an Elastic Pool which shares performance over multiple databases. Saving ~80%. 
 That's just one small example of an optimized service which is a little bit more advanced. But there are easy steps to follow for identifiying low hanging fruits. 
 
 ## How to getting started with cost optimization
