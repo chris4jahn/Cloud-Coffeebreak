@@ -26,6 +26,7 @@ I will go into detail on each of the 7 bulletpoints in an upcoming series
 5. Turn services off if they are not used. 
 6. Start small with commitments. 
 7. Last but not least bring cloud optimization into your organization 
+Stay tuned! I will dive into each topic in a series of blog posts. The first will be available soon and cover the first phase, where we are diving into our past costs to get a feeling of it.
 
 ## Cost optimization is no one-stop-shop, it's a process
 You do not optimize your costs once and it's done. It is an ongoing process. You are good to go with the steps above. Start over from the beginning and optimize every part in just small steps. Start over when you are at the end. Over time this will make you better in every disciplin and mature. Embrace cloud and use the flexibility and agility, scale up and down and get used to pay-as-you-go. 
@@ -33,4 +34,3 @@ You do not optimize your costs once and it's done. It is an ongoing process. You
 ## Conclusion
 You could prevent paying too much for your cloud if you are following the steps above. Start your cost optimization in small steps and try out one thing after the other. Iterate over every step again and again for becoming the expert in the relevant areas. Take care not to doing too much at a time as this could overextend your organization. Happy optimization!
 
-Stay tuned! I will dive into each topic in a series of blog posts. 
