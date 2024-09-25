@@ -25,6 +25,7 @@ When you are at the beginning of your cloud optimization journey you are good no
 5. Azure Cost Optimization Part 5 - Turn off if not needed  
 6. Azure Cost Optimization Part 6 - Start small with commitments
 7. Azure Cost Optimization Part 7 - Bring cloud optimization into your organization 
+
 Stay tuned! I will dive into each topic in a series of blog posts. The first will be available soon and cover the first phase, where we are diving into our past costs to get a feeling of it.
 
 ## Cost optimization is no one-stop-shop, it's a process
