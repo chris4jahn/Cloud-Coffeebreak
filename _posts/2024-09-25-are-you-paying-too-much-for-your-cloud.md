@@ -2,7 +2,7 @@
 layout: post
 title: "Are you paying too much for your cloud?"
 date: 2024-09-25
-subtitle: "How Azure Cost Management helps finding out"
+subtitle: "7 steps to start your cloud optimization"
 background: '/img/posts/004.png'
 ---
 I bet you are paying too much for your cloud services. Why I think I know that? Because I guess everyone does. The only person that is not paying too much, is the person not using cloud services. What do you think?
