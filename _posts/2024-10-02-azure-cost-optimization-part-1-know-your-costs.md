@@ -59,6 +59,12 @@ You need to give it a prefix
 <img src="/img/posts/013.png" class="img-fluid"/>
 Choose the storage account etc. The export format can be CSV or Parquet (the FinOps standard)
 
+## Advanced Visibility
+
+When you are familiar with your existing costs it becomes more important to allocate your costs to teams, products, environments, etc. That's the point when you have to implement
+1. a hierarchy using management groups, subscriptions and resource groups
+2. a trading strategy to fill the gaps of the hierarchy or adding additional value
+
 ## Conclusion
 
 To start your optimization journey the first thing you need to do is get rid of that black box called cloud bill. You can use Azure Cost Management or an external tool to dig into your data, create relevant reports for yourself, your teams and management. Get familiar with the tooling and the data. Knowing your costs is the starting point for Azure cost optimization.
