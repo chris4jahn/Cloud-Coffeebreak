@@ -13,6 +13,6 @@ jobs:
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: .
-          branch: working
+          branch: main
           clean-exclude: pr-preview
           force: false
