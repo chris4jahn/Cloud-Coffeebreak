@@ -1,18 +1,23 @@
-# .github/workflows/deploy.yml
+# .github/workflows/preview.yml
 name: Deploy PR previews
+concurrency: preview-${{ github.ref }}
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: npm i && npm run build
-      - uses: JamesIves/github-pages-deploy-action@v4
+        if: github.event.action != 'closed'
+      - uses: rossjrw/pr-preview-action@v1
         with:
-          folder: .
-          branch: working
-          clean-exclude: pr-preview
-          force: false
+          source-dir: .
+          preview-branch: working
+          umbrella-dir: pr-preview
+          action: auto
