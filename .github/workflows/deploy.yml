@@ -16,21 +16,3 @@ jobs:
           branch: working
           clean-exclude: pr-preview
           force: false
-# .github/workflows/deploy.yml
-name: Deploy PR previews
-on:
-  push:
-    branches:
-      - main
-jobs:
-  deploy-preview:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: npm i && npm run build
-      - uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: .
-          branch: working
-          clean-exclude: pr-preview
-          force: false
