@@ -1,4 +1,4 @@
-p---
+---
 layout: post
 title: "Azure Cost Optimization Part 1"
 date: 2024-10-01
