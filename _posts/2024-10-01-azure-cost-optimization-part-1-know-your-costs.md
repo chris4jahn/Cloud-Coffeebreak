@@ -36,12 +36,12 @@ Reuse your custom view for your analysis
 
 ## Export your data for external tools
 
-Azure gives you the possibily to export data in a standardized format using the Azure Portal as well as through API. Use this possibility for external tools like BI or FinOps tools. You can download the reports one by one or use scheduling to store reports on a regular basis in Azure blob storage. From there you can use orchestrator tools like Azure Data Factory to load the data via ETL pipelines to another service.
+Azure gives you the possibily to export data in a standardized format using the Azure Portal as well as through API. Use this possibility for external tools like BI or FinOps tools. You can download the reports one by one or use scheduling to store reports on a regular basis in Azure blob storage. From there you can use orchestrator tools like Azure Data Factory to load the data via ETL pipelines to another service like PowerBI. 
 
 ### Download
 
 <img src="/img/posts/009.png" class="img-fluid"/>
-Use the download method to store your data in your local drive
+Use the download method to store your data in your local drive.  You can then load it directly into your customized PowerBI dashboard. 
 
 ### Create a scheduled export
 
@@ -59,6 +59,8 @@ You need to give it a prefix
 
 <img src="/img/posts/013.png" class="img-fluid"/>
 Choose the storage account etc. The export format can be CSV or Parquet (the FinOps standard)
+
+From Azure storage accounts you can consume that data directly in your preferred tool or transfer it to your data lake or warehouse for further investigation. 
 
 ## Advancing with visibility and accountability
 
