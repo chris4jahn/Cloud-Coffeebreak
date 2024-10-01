@@ -69,6 +69,18 @@ When you are familiar with your existing costs it becomes more important to allo
 1. a hierarchy using management groups, subscriptions and resource groups
 2. a taging strategy to fill the gaps of the hierarchy or adding additional value
 
+## Other posts in the cost optimization series
+
+0. [Azure Cost Optimization Part 0 - Are you paying too much for your cloud?](2024-09-25-are-you-paying-too-much-for-your-cloud.md)
+1. [Azure Cost Optimization Part 1 - Know your costs](2024-10-01-azure-cost-optimization-part-1-know-your-costs.md)
+2. Azure Cost Optimization Part 2 - Stay alert
+3. Azure Cost Optimization Part 3 - Identify cloud waste 
+4. Azure Cost Optimization Part 4 - Rightsize your resources
+5. Azure Cost Optimization Part 5 - Turn off if not needed  
+6. Azure Cost Optimization Part 6 - Start small with commitments
+7. Azure Cost Optimization Part 7 - Bring cloud optimization into your organization 
+
+
 ## Conclusion
 
 To start your optimization journey the first thing you need to do is get rid of that black box called cloud bill. You can use Azure Cost Management or an external tool to dig into your data, create relevant reports for yourself, your teams and management. Get familiar with the tooling and the data. Knowing your costs is the starting point for Azure cost optimization.
