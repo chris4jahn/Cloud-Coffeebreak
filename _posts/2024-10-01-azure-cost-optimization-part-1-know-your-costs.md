@@ -11,7 +11,8 @@ When you want to start with Azure cost optimization the first thing you need to 
 
 Most Azure customers I know treat their cloud bill like a black box. They know the total cost of the past months and compare it to the amount to the actual month. If the amount kind of fits to the past months they tick it off and that's it. 
 But they don't know the details of their costs. What are the biggest cost drivers? Which apps lead to what costs? Are there new services, ... Without that knowledge you cannot start to get the maximum out of your resources.  
-**If you don't know your costs, you cannot optimize them!**  
+> If you don't know your costs, you cannot optimize them!
+
 In the first place looking into the details seems overwhelming and confusing. Perhaps there are hundreds, or thousands of resources billed to you every month. To get an overview you need a tool that supports you with that. Let me tell you, Excel is not the best choice here. Take a look at Azure Cost Management as a native tool within Azure. If your organization uses another BI or FinOps tool feel free to use that. Everything is better than the black box.  
 Let' take a look at the native Azure tools.
 
