@@ -20,7 +20,7 @@ When you are at the beginning of your cloud optimization journey you are good no
 
 ## Take 7 steps to optimize your cloud in Azure
 
-1. Azure Cost Optimization Part 1 - Know your costs 
+1. [Azure Cost Optimization Part 1 - Know your costs](2024-10-01-azure-cost-optimization-part-1-know-your-costs.md)
 2. Azure Cost Optimization Part 2 - Stay alert
 3. Azure Cost Optimization Part 3 - Identify cloud waste 
 4. Azure Cost Optimization Part 4 - Rightsize your resources
