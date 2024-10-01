@@ -1,7 +1,7 @@
----
+p---
 layout: post
 title: "Azure Cost Optimization Part 1"
-date: 2024-09-25
+date: 2024-10-01
 subtitle: "Know your costs!"
 background: '/img/posts/006.png'
 ---
