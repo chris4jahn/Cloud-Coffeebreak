@@ -59,7 +59,7 @@ You need to give it a prefix
 <img src="/img/posts/013.png" class="img-fluid"/>
 Choose the storage account etc. The export format can be CSV or Parquet (the FinOps standard)
 
-## Advanced Visibility
+## Advancing with visibility and accountability
 
 When you are familiar with your existing costs it becomes more important to allocate your costs to teams, products, environments, etc. That's the point when you have to implement
 1. a hierarchy using management groups, subscriptions and resource groups
