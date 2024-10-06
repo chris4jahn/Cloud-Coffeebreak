@@ -59,7 +59,7 @@ Give it a name and some basic information
 You need to give it a prefix
 
 <img src="/img/posts/013.png" class="img-fluid"/>
-Choose the storage account etc. The export format can be CSV or Parquet (the FinOps standard)
+Choose the storage account etc. The export format can be CSV or Parquet. 
 
 From Azure storage accounts you can consume that data directly in your preferred tool or transfer it to your data lake or warehouse for further investigation. 
 
@@ -68,6 +68,7 @@ From Azure storage accounts you can consume that data directly in your preferred
 When you are familiar with your existing costs it becomes more important to allocate your costs to teams, products, environments, etc. That's the point when you have to implement
 1. a hierarchy using management groups, subscriptions and resource groups
 2. a taging strategy to fill the gaps of the hierarchy or adding additional value
+Why is this important? If the overall costs remains flat but one team did a good job with savings and another is filling up the gap  to being able to deliver an update out be features faster you want to be aware of that.
 
 ## Other posts in the cost optimization series
 
