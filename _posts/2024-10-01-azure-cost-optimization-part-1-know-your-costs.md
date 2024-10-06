@@ -37,7 +37,8 @@ Reuse your custom view for your analysis
 
 ## Export your data for external tools
 
-Azure gives you the possibily to export data in a standardized format using the Azure Portal as well as through API. Use this possibility for external tools like BI or FinOps tools. You can download the reports one by one or use scheduling to store reports on a regular basis in Azure blob storage. From there you can use orchestrator tools like Azure Data Factory to load the data via ETL pipelines to another service like PowerBI. 
+Azure gives you the possibily to export data in a standardized format using the Azure Portal as well as through API. Use this possibility for external tools like BI or FinOps tools. You can download the reports one by one or use scheduling to store reports on a regular basis in Azure blob storage.  
+You can consume your cost data with PowerBI directly from the storage account!
 
 ### Download
 
