@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Azure Cost Optimization Part 1"
+title: "Know your costs!"
 date: 2024-10-01
-subtitle: "Know your costs!"
+subtitle: "Azure Cost Optimization Part 1"
 background: '/img/posts/006.png'
 ---
 When you want to start with Azure cost optimization the first thing you need to do is to open the black box. That means you have to step out of your comfort zone where you simply quick-checked your costs and go into the detail of your cloud bill. That's not the most fun part but absolutely necessary. 
