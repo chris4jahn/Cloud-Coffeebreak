@@ -5,13 +5,13 @@ date: 2024-06-18
 subtitle: "selbst wenn du die Lizenzen dafür einkaufst"
 background: '/img/posts/005.png'
 ---
-Auf den Punkt gebracht ermöglicht der Azure Hybrit Benefit (ehemals Azure Hybrid Use Benefit) dir deine bestehenden Windows Server und SQL Server Lizenzen auch in der Cloud zu nutzen. Der Azure Hybrid Benefit (AHB) ermöglicht auf diese Art immense Einsparmöglichkeiten bei der Verwendung der Microsoft Server Produkte. 
+Auf den Punkt gebracht ermöglicht der Azure Hybrit Benefit (ehemals Azure Hybrid Use Benefit) dir deine bestehenden Windows Server und SQL Server Lizenzen auch in der Cloud zu nutzen. Der Azure Hybrid Benefit (AHB) ermöglicht auf diese Art immense Einsparmöglichkeiten bei der Verwendung der Microsoft Server Produkte.
 
 <img class="img-fluid" src="/img/01AzureHybridBenefit.png"/>
 
 ## Wie funktioniert der Azure Hybrid Benefit?
 
-Um den AHB nutzen zu können, benötigst du Windows Server, bzw. SQL Lizenzen inkl. einer gültigen Software Assurance aus einem Enterprise Agreement (EA), oder eine CSP Subscription. Verfügst du über diese Lizenzen, dann kannst du sie für deine Workloads in Azure, oder für die Lizenzierung von Azure Stack HCI (Azure aus deinem eigenen Rechenzentrum heraus) einsetzen und so die Kosten für das Windows Betriebssystem sparen. 
+Um den AHB nutzen zu können, benötigst du Windows Server, bzw. SQL Lizenzen inkl. einer gültigen Software Assurance aus einem Enterprise Agreement (EA), oder eine CSP Subscription. Verfügst du über diese Lizenzen, dann kannst du sie für deine Workloads in Azure, oder für die Lizenzierung von Azure Stack HCI (Azure aus deinem eigenen Rechenzentrum heraus) einsetzen und so die Kosten für das Windows Betriebssystem sparen.
 
 ## Was kostet das Windows Betriebssystem in der Pay as you go Subscription?
 
@@ -27,9 +27,10 @@ Das bedeutet, dass sich der AHB für Organisationen, die Hybrid aufgestellt sind
 
 ## Wie muss ich Azure Stack HCI mit AHB lizenzieren?
 
-Wenn du Azure Stack HCI per AHB lizenzieren möchtest, kannst du darauf eine beliebige Anzahl an Windows Server VMs betreiben. Voraussetzung ist das für jeden physischen Core auf der Hardware eine Windows Server Core Lizenz vorgehalten wird. Nur die Datacenter Edition ist hierfür nurtzbar. 
+Wenn du Azure Stack HCI per AHB lizenzieren möchtest, kannst du darauf eine beliebige Anzahl an Windows Server VMs betreiben. Voraussetzung ist das für jeden physischen Core auf der Hardware eine Windows Server Core Lizenz vorgehalten wird. Nur die Datacenter Edition ist hierfür nurtzbar.
 
 ## Fazit
 
-Der AHB ist eine weitere Möglichkeit für dein FinOps Team deine Kosten in der Cloud zu reduzieren. Der Einsatz lohnt sich in den meisten Fällen selbst dann, wenn du die VM nicht dauerhaft läift und du die Lizenz per Subscription extra für diesen Zweck beziehst. Organisationen, die die Hybrid Cloud Strategie verfolgen profitieren am meisten vom AHB, da sie mit einer Lizenz sowohl die On Premises, als auch die Cloud Server lizenzieren können. 
+Der AHB ist eine weitere Möglichkeit für dein FinOps Team deine Kosten in der Cloud zu reduzieren. Der Einsatz lohnt sich in den meisten Fällen selbst dann, wenn du die VM nicht dauerhaft läift und du die Lizenz per Subscription extra für diesen Zweck beziehst. Organisationen, die die Hybrid Cloud Strategie verfolgen profitieren am meisten vom AHB, da sie mit einer Lizenz sowohl die On Premises, als auch die Cloud Server lizenzieren können.
+
 Willst du mehr über den AHB wissen und selbst Geld sparen, dann kontaktiere mich!

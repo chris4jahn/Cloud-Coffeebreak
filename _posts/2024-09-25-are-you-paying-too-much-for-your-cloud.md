@@ -36,4 +36,6 @@ You do not optimize your costs once and it's done. It is an ongoing process. You
 
 ## Conclusion
 
-You could prevent paying too much for your cloud if you are following the steps above. Start your cost optimization in small steps and try out one thing after the other. Iterate over every step again and again for becoming the expert in the relevant areas. Take care not to doing too much at a time as this could overextend your organization. Happy optimization!
+You could prevent paying too much for your cloud if you are following the steps above. Start your cost optimization in small steps and try out one thing after the other. Iterate over every step again and again for becoming the expert in the relevant areas. Take care not to doing too much at a time as this could overextend your organization. 
+
+Happy optimization!
