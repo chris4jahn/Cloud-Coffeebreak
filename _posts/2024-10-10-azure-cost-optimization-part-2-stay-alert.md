@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stay Alert!"
-date: 2024-10-01
+date: 2024-10-10
 subtitle: "Azure Cost Optimization Part 2"
 background: '/img/posts/budget_alert_01.png'
 ---
