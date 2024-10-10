@@ -59,7 +59,7 @@ Policies können unterschiedliche Actions haben. Während des Deployments könne
 - verknüpfte Ressourcen erstellt werden, um die Compliance sicher zu stellen
 - Aktionen bei Ressourcen verhindert werden
 
-Dank dieser Actions bieten sich mit Policies ein ganzer Blumenstrauß an Möglichkeiten, um die eigenen Anforderungen stets im Blick zu halten. 
+Dank dieser Actions bieten sich mit Policies ein ganzer Blumenstrauß an Möglichkeiten, um die eigenen Anforderungen stets im Blick zu halten.
 
 ## Fazit
 

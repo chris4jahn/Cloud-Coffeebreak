@@ -18,7 +18,6 @@ Zudem muss auch hier eine Namenskonvention gelten. Ansonsten hast du mit den Tag
 
 Microsoft empfiehlt folgende Überlegungen für die Tags:
 
-
 |                            | BESCHREIBUNG                                                                                                                         |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | Primäre Überlegungen     | Business und Betriebs-Anforderungen definieren                                                                                       |
@@ -27,7 +26,6 @@ Microsoft empfiehlt folgende Überlegungen für die Tags:
 | Klassifizierung            | Datenklassifizierung (öffentlich, privat, vertraulich usw.); Kritikalität; SLA.                                                    |
 | Buchhaltung                | Tags, die eine Nachverfolgung der Kosten im Zusammenhang mit Ressourcenvorgängen ermöglichen. z.B. Abteilung, Projekt, Region usw. |
 | Zweck                      | Geschäftsprozess, geschäftliche Bedeutung, Auswirkung auf den Umsatz.                                                              |
-
 
 ## Was sind übliche Usecases für Tags?
 
@@ -43,7 +41,6 @@ Microsoft empfiehlt folgende Überlegungen für die Tags:
 - Tags helfen bei der Auswertung von Governance Anforderungen
 - Automatisierung: Ein passendes Organisationsschema ermöglicht die vorteilhafte Nutzung der Automatisierung im Rahmen der Ressourcenerstellung, der Betriebsüberwachung und der Erstellung von DevOps-Prozessen. Eine Automatisierung erleichtert der IT-Abteilung ebenfalls die Verwaltung von die Ressourcen
 
-
 ## So erstellst du Tags im Azure Portal
 
 Tags sind eine Kombination aus "Key" und "Value". Das bedeutet, dass du Tags in "Keys" organisierst, bspw. "Abteilung" und die Werte dann beliebig wählen kannst, z.B. "Marketing".
@@ -57,13 +54,13 @@ In der Tags-Übersicht siehst du welche Tags in deiner Subscription verwendet we
 
 <img class="img-fluid" src="/img/TagsUebersicht.png" />
 
-Auch beim erstellen von neuen Ressourcen gibt es immer einen Reiter, um die Tags zu hinterlegen. 
+Auch beim erstellen von neuen Ressourcen gibt es immer einen Reiter, um die Tags zu hinterlegen.
 
 ## Wie stellst du sicher, dass alle Ressourcen getaggt werden?
 
-Dank [Azure Policies](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) kannst du Tags von Ressourcengruppen vererben, oder sogar bei der Erstellung von Ressourcen verpflichtend machen. 
+Dank [Azure Policies](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) kannst du Tags von Ressourcengruppen vererben, oder sogar bei der Erstellung von Ressourcen verpflichtend machen.
 
-Wenn du Infrastructure as Code (IaC) nutzt, dann können die Tags hier ebenso als verpflichtende Parameter hinterlegt werden. 
+Wenn du Infrastructure as Code (IaC) nutzt, dann können die Tags hier ebenso als verpflichtende Parameter hinterlegt werden.
 
 Mit diesen Mitteln sorgst du dafür, dass deine Ressourcen alle einheitlich mit den notwendigen Tags versehen werden und kannst du die Compliance monitoren, oder sogar erzwingen.
 

@@ -83,6 +83,6 @@ You can find a Terraform module for creating anomaly alerts in my git repo [Terr
 
 ## Conclusion
 
-Defining and monitoring your budgets is crucial for your cost optimization. You need transperancy on where you stay in your budgets and where you are exeeding your budgets in order to take actions. Azure Budget and Anomaly Alerts halep you staying on top of your budgets. Use them wherever useful and adjust them on a regular basis.  
+Defining and monitoring your budgets is crucial for your cost optimization. You need transperancy on where you stay in your budgets and where you are exeeding your budgets in order to take actions. Azure Budget and Anomaly Alerts help you staying on top of your budgets. Use them wherever useful and adjust them on a regular basis.  
 
-Happy optimmization!
+Happy optimization!

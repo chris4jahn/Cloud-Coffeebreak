@@ -11,7 +11,7 @@ In diesem Hands on Azure zeige ich dir, wie du einen Azure Service Health Alert 
 
 Service Health bietet dir die Möglichkeit eine personalisierte Sicht auf die Verfügbarkeit von Azure Diensten und Regionen zu bekommen. Mit Hilfe von Service Health Alerts kannst du dich darüber informieren lassen, wenn bspw. in der Region "Germany West Central" Dienstprobleme bestehen, wann geplante Wartungsfenster sind, oder Änderungen an Services bevorstehen. So bist du immer auf dem aktuellen Stand, ob die Grundlage für deine Services "healthy" ist. 
 
-## Warum nicht Azure Monitoring nutzen? 
+## Warum nicht Azure Monitoring nutzen?
 
 Der Service Azure Monitor überwacht deine Services auf Virtualisierungs- und Betriebssystemebene. Wo Service Health auf die Verfügbarkeit der Platform schaut, wertet Azure Monitor Metriken der Services aus. Das kann die CPU Auslastung, Netzwerktraffic, und vieles mehr sein. Für das Monitoring deiner Cloud Infrastruktur ist es nicht nur wichtig die Applikationen und bspw. die Performance deiner Services im Blick zu haben, du solltest zudem ein Auge auf die Plattform an sich werfen. Azure Service Health und seine Alterts sind dafür dein Mittel der Wahl. 
 
@@ -21,7 +21,7 @@ Willst du Service Health Alerts anlegen, dann kannst du das auf mehrere Arten tu
 
 ### Service Health Alert mit dem Azure Portal erstellen
 
-Nutze die Suche im Azure Portal und suche nach "Service Health". 
+Nutze die Suche im Azure Portal und suche nach "Service Health".
 
 <img src="/img/posts/ServiceHealth01.PNG" class="img-fluid"/>
 
@@ -67,4 +67,4 @@ Jetzt kannst du deine Einstellungen noch einmal prüfen und dann den Alert erste
 
 ## Fazit
 
-Der Service Health Alert unterstützt dich dabei über geplante Maintenance, Service Ausfälle, oder Änderungen an Diensten auf dem Laufenden zu bleiben. Mit wenigen Handgriffen hast du deinen Alert erstellt und bleibst fortan informiert. Beachte, dass du nur die Regionen und Services ins Monitoring aufnimmst, die dich interessieren, oder die du selbst einsetzt. 
+Der Service Health Alert unterstützt dich dabei über geplante Maintenance, Service Ausfälle, oder Änderungen an Diensten auf dem Laufenden zu bleiben. Mit wenigen Handgriffen hast du deinen Alert erstellt und bleibst fortan informiert. Beachte, dass du nur die Regionen und Services ins Monitoring aufnimmst, die dich interessieren, oder die du selbst einsetzt.
