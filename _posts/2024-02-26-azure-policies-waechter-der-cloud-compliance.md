@@ -36,6 +36,8 @@ Wähle die gewünschte Policy aus. In meinem Fall, habe ich eine der Standard Po
 
 <img class="img-fluid" src="/img/03AzurePolicyAssignBasic.png" />
 
+:::image type="content" source="../img/03AzurePolicyAssignBasic.png" alt-text="":::
+
 Unter den Parameter Settings kannst du auswählen, in welchen Regionen die Ressourcen angelegt werden dürfen und für welchen Scope das gilt. In meinem Fall ist der Scope die "Tenant Root Group". Das bedeutet es gilt für alle darunterligenden Subscriptions. Ich habe mich für dieses Beispiel auf die Regionen in Deutschland beschränkt. Da es tlw. Ressourcen gibt, die global bereitgestellt werden, wähle ich auch diese mit aus. Ansonsten können manche Ressourcen wie z.B. Entra ID, Azure Traffic Manager, oder Azure DNS nicht erstellt werden.
 
 Hinweis: Da noch nicht alle Ressourcen in den deutschen Regionen bereitstehen, empfehle ich die Settings so nur bedingt.
