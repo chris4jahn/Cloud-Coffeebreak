@@ -76,11 +76,11 @@ Why is this important? If the overall costs remains flat but one team did a good
 - [Azure Cost Optimization Part 0 - Are you paying too much for your cloud?](2024-09-25-are-you-paying-too-much-for-your-cloud.md)
 - [Azure Cost Optimization Part 1 - Know your costs](2024-10-01-azure-cost-optimization-part-1-know-your-costs.md)
 - [Azure Cost Optimization Part 2 - Stay alert](2024-10-14-azure-cost-optimization-part-2-stay-alert.md)
-- Azure Cost Optimization Part 3 - Identify cloud waste 
+- [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
 - Azure Cost Optimization Part 4 - Rightsize your resources
 - Azure Cost Optimization Part 5 - Turn off if not needed  
 - Azure Cost Optimization Part 6 - Start small with commitments
-- Azure Cost Optimization Part 7 - Bring cloud optimization into your organization 
+- Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
 
 ## Conclusion

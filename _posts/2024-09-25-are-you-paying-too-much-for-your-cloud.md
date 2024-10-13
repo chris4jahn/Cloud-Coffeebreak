@@ -20,13 +20,13 @@ When you are at the beginning of your cloud optimization journey you are good no
 
 ## Take 7 steps to optimize your cloud in Azure
 
-1. [Azure Cost Optimization Part 1 - Know your costs](2024-10-01-azure-cost-optimization-part-1-know-your-costs.md)
-2. [Azure Cost Optimization Part 2 - Stay alert](2024-10-14-azure-cost-optimization-part-2-stay-alert.md)
-3. Azure Cost Optimization Part 3 - Identify cloud waste 
-4. Azure Cost Optimization Part 4 - Rightsize your resources
-5. Azure Cost Optimization Part 5 - Turn off if not needed  
-6. Azure Cost Optimization Part 6 - Start small with commitments
-7. Azure Cost Optimization Part 7 - Bring cloud optimization into your organization 
+- [Azure Cost Optimization Part 1 - Know your costs](2024-10-01-azure-cost-optimization-part-1-know-your-costs.md)
+- [Azure Cost Optimization Part 2 - Stay alert](2024-10-14-azure-cost-optimization-part-2-stay-alert.md)
+- [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
+- Azure Cost Optimization Part 4 - Rightsize your resources
+- Azure Cost Optimization Part 5 - Turn off if not needed  
+- Azure Cost Optimization Part 6 - Start small with commitments
+- Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
 Stay tuned! I will dive into each topic in a series of blog posts. The first will be available soon and cover the first phase, where we are diving into our past costs to get a feeling of it.
 
