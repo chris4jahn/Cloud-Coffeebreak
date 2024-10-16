@@ -13,8 +13,8 @@ When you are having cloud resources that increase your spend but are not useful 
 
 > Check for underutilized or idle resources.
 
-A customer reported that they spent thousands of Euros with this.  
-During a regular recovery before Christmas holidays the operations team tested a desaster recovery plan, where they recovered a bigger environment. Testing of the backup went well, was documented properly and after that everyone went to holidays. Some days later an alarm was thrown because an anomaly in the cloud spend was detected. This informed the Teamlead of the ops team who also was in holidays. After coming back he realized the error and deleted the non-production environment. Until then this cloud waste generated 15.000 Euro of consumption.
+Here is an example of a customer who reported, that he spent thousands of Euros with this.  
+During a regular recovery before Christmas holidays the operations team tested a desaster recovery plan, where they recovered a bigger environment. Testing of the backup went well, was documented properly and after that everyone went to holidays. Some days later an alarm was thrown because an anomaly in the cloud spend was detected. This informed the Teamlead of the ops team who also was in holidays. After coming back he realized the error and deleted the non-production environment. Until then this cloud waste generated more than 15.000 Euro.
 
 I bet everyone heard of stories like this. This is an example of a higher cloud waste which in most environments are not happening on a regular basis. But all these small chunks of cloud waste, that are leftovers from resources, forgotten or unused services can add up to increased spenditure.
 
@@ -24,7 +24,7 @@ In Azure we have a service called Azure Advisor that can help us identifiying re
 
 ## Take care with deleting cloud waste
 
-Be careful with deleting cloud waste. There can be reasons for not deleting these resources like regulatory requirements or other services that relate to it. Collaborate with business and technical teams to ensure services can be retired.
+Be careful with deleting cloud waste. There can be reasons for not deleting these resources like regulatory requirements or other services that relate to it. Collaborate with business and technical teams to ensure services can be retired. If the environment is deployed using infrastructure as code be sure not to create code drift by manually deleting things.  
 As you can see see once again, accountablity is the key for optimization. The decision of what services can be deleted must be taken from the accountable team or user.
 
 If you don't have an accountable person, make use of the "cry-test". Turn the service off and wait for some weeks if someone cries. Unsused services can then be deleted or costs at least can being reduced.  
