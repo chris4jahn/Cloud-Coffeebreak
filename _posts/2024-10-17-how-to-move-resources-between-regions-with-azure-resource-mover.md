@@ -40,7 +40,7 @@ Here is an example of how to move a virtual machine and its related resources fr
 These are the services that I want to move form West Europe to Germany West Central.
 
 <img src="/img/posts/Azure-Resource-Mover-02.png" class="img-fluid"/>
-Search fpr "Azure Resource Mover" and select one of the options.
+Search for "Azure Resource Mover" and select one of the options.
 
 <img src="/img/posts/Azure-Resource-Mover-03.png" class="img-fluid"/>
 Add resources to the Mover.
