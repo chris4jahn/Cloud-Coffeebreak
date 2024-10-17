@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to move resources between regions"
-date: 2024-10-20
+date: 2024-10-17
 subtitle: "with Azure Resource Mover"
 background: '/img/posts/Azure-Resource-Mover-07.png'
 ---
