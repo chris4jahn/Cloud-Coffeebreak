@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rightsize your resources"
-date: 2024-10-24
+date: 2024-10-28
 subtitle: "Azure Cost Optimization Part 4"
 background: '/img/posts/Rightsizing-azqr-excel-report.png'
 ---
