@@ -20,7 +20,9 @@ There are several reasons for overprovisioning. Here are three examples:
 
 Initial Over-Allocation: As mentioned, services are often deployed in "t-shirt sizes," where oversized instances are chosen. Many forget that resource size is flexible and can be adjusted as needed.
 Changing Requirements: During an application's lifecycle, requirements may change. You may initially expect high demand and allocate resources accordingly, only to find lower demand. Always reassess and adjust workloads over time.
+
 Data Storage for Compliance: Some applications write substantial amounts of data, which must be stored for compliance reasons but may not require immediate access. In such cases, consider moving the data to cheaper storage tiers, like cold or archive storage.
+
 These reasons highlight the importance of identifying and adjusting overprovisioned services to control costs effectively.
 
 ## How to Identify Resources That Need Rightsizing
@@ -29,6 +31,7 @@ To locate overprovisioned resources, leverage Azure’s built-in tools:
 
 Azure Advisor offers insights across various services.
 Azure Quick Review (azqr), a command-line tool, scans your subscription for optimization opportunities like compliance, security, and cost.
+
 These tools rely on ongoing monitoring of resource metrics (e.g., CPU, memory, storage, and network usage) to highlight potential optimizations. Regular monitoring empowers teams to spot both over- and under-provisioned resources.
 
 Pro Tip: Regular monitoring is essential for effective rightsizing!
