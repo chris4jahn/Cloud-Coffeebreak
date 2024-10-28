@@ -38,6 +38,8 @@ Hint: Before taking care on the orphaned resources talk to the accountable teams
 <img src="/img/posts/Orphaned_Resources_Workbook.png" class="img-fluid"/>
 Here you can see an overview of orphaned services from the workbook.
 
+Here is a [grafana dashboard](https://github.com/Azure-Samples/azure-orphan-resources-grafana-dashboard) for identifiying cloud waste like orphaned resources.
+
 ## How to identify services on your own?
 
 When you want to advance finding unused services there are several ways to do that. One option is to take a look at apps and services that have a very constant spend. Usually this means that the services have not been touched for a while. Check these resource groups for unattached disks, check the metrics of the services. Check who accessed the services. If there have been requests to the resources, ... This gives you a first hint. Then contact the accountable team and/or users and ask them to evaluate if the services are need or not. 
