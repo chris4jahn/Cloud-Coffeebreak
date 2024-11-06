@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prevent Accidental Deletion and Changes with Azure Resource Locks"
-date: 2024-10-28
+date: 2024-11-06
 subtitle: "Don't spend hours or days redeploying infrastructure"
 background: '/img/posts/cannot-delete-resource-group.png'
 ---
