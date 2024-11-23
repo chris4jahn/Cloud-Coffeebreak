@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Turn off if not needed"
-date: 2024-11-15
+date: 2024-11-25
 subtitle: "Azure Cost Optimization Part 4"
 background: '/img/posts/Rightsizing-azqr-excel-report.png'
 ---
@@ -10,7 +10,9 @@ The cloud is meant to being used in a different way than on premises resources. 
 
 ## Why turning things off matters?
 
-CapEx to OpEx
+Have you tried turning it off and on again? That's not only the standard advice of IT crowd, but can also save you lots of money. The Cloud's cost model Pay-as-you-go and paying only what you consume is a possibility to step outside your box and change how you are running your IT. No need of running services 24/7 if they are only used during the work week and during core working hours.
+
+A lot of organizations have services that run on a regular basis but are not being used on a daily basis. These services can be shut down and being started when needed. Some customers saved tons of money by embracing serverless technology like Azure functions for processing things. The cost for functions are calculated on how long your service is running. So if it is sitting inthe backgroud waiting for jobs, it is only billed if it is actually triggered.
 
 ## How can automation help turning things off?
 
@@ -44,7 +46,7 @@ In case there's no accountable make use of the "cry test".
 - [Azure Cost Optimization Part 2 - Stay alert](2024-10-14-azure-cost-optimization-part-2-stay-alert.md)
 - [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
-- Azure Cost Optimization Part 5 - Turn off if not needed  
+- [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
 - Azure Cost Optimization Part 6 - Start small with commitments
 - Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
