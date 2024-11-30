@@ -77,7 +77,7 @@ You can find a Terraform module for creating anomaly alerts in my git repo [Terr
 - [Azure Cost Optimization Part 2 - Stay alert](2024-10-14-azure-cost-optimization-part-2-stay-alert.md)
 - [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
-- Azure Cost Optimization Part 5 - Turn off if not needed  
+- [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
 - Azure Cost Optimization Part 6 - Start small with commitments
 - Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
