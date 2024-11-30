@@ -94,7 +94,7 @@ $vms = Get-AzVM
 
 # Filter virtual machines with the specified tag name and value
 $vmsToShutdown = $vms | Where-Object { 
-    $_.Tags[$tagName] -eq $tagValue 
+    $_.Tags.Keys -eq $tagName -and $_.Tags.Value -eq $tagValue 
 }
 
 # Loop through the filtered virtual machines and stop them
