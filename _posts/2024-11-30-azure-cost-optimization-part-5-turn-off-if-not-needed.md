@@ -2,7 +2,7 @@
 layout: post
 title: "Turn off if not needed"
 date: 2024-11-30
-subtitle: "Azure Cost Optimization Part 4"
+subtitle: "Azure Cost Optimization Part 5"
 background: '/img/posts/Azure-Auto-Shutdown.png'
 ---
 
