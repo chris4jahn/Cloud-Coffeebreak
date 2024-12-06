@@ -3,12 +3,14 @@ layout: post
 title: "Santa’s Journey to the Cloud: How Azure ExpressRoute Saves Christmas"
 date: 2024-12-10
 # subtitle: "Azure Cost Optimization Part 4"
-background: '/img/posts/Azure-Auto-Shutdown.png'
+background: '/img/posts/santas-digitization-express-route.png'
 ---
 
 The holiday season is the busiest time of the year for Santa Claus. Every year, millions of letters flood his workshop, detailing the wishes of children from all corners of the globe. But as the years went by, managing this ever-growing pile of paper became increasingly challenging. Santa realized it was time for a change. It was time for digitization.
 
 This is the story of how Santa moved his operations to the cloud and ensured Christmas joy for everyone with the help of Azure ExpressRoute.
+
+<img src="/img/posts/santas-digitization-express-route.png" class="img-fluid" alt="Lego-style image of me assisting Santa with his digitization using Azure services and ExpressRoute in a festive and tech-savvy setting" />
 
 ## A Cloudy Christmas for Santa
 
