@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Santa’s Journey to the Cloud: How Azure ExpressRoute Saves Christmas"
-date: 2024-12-10
+date: 2024-12-06
 # subtitle: "Azure Cost Optimization Part 4"
 background: '/img/posts/santas-digitization-express-route.png'
 ---
