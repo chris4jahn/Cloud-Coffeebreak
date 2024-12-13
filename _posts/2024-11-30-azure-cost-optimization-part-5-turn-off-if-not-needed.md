@@ -3,7 +3,7 @@ layout: post
 title: "Turn off if not needed"
 date: 2024-11-30
 subtitle: "Azure Cost Optimization Part 5"
-background: '/img/posts/Azure-Auto-Shutdown.png'
+background: '/img/header.png'
 ---
 
 The cloud is meant to be used differently than on-premises resources. There's no "we have it, we use it" mindset in Azure. If you want to get the most out of your cloud environment, you need to adopt the **pay-as-you-go (PAYG)** model. This also means shutting down services you don’t need. Make use of the flexibility Azure offers you.
@@ -117,7 +117,7 @@ You can schedule this script to run at specific times (e.g., every weekday at 9 
 - [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
 - [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
-- Azure Cost Optimization Part 6 - Start small with commitments
+- [Azure Cost Optimization Part 6 - Start small with commitments](2024-12-30-azure-cost-optimization-part-6-start-small-with-commitments.md)
 - Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
 ## Conclusion

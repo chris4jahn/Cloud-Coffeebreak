@@ -3,7 +3,7 @@ layout: post
 title: "Identify cloud waste!"
 date: 2024-10-16
 subtitle: "Azure Cost Optimization Part 3"
-background: '/img/posts/Orphaned_Resources_Workbook.png'
+background: '/img/header.png'
 ---
 In this part of the blog series focussing on Azure cost optimization we will have a look at cloud waste and how to get rid of it. As flexibility and agility is a key driver of cloud, cloud waste is not avoidable. But we don't want to waste our money on it, that's why we need to find and eliminate it.
 
@@ -52,7 +52,7 @@ When you want to advance finding unused services there are several ways to do th
 - [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
 - [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
-- Azure Cost Optimization Part 6 - Start small with commitments
+- [Azure Cost Optimization Part 6 - Start small with commitments](2024-12-30-azure-cost-optimization-part-6-start-small-with-commitments.md)
 - Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
 ## Conclusion

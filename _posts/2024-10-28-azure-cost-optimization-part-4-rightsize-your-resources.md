@@ -3,7 +3,7 @@ layout: post
 title: "Rightsize your resources"
 date: 2024-10-28
 subtitle: "Azure Cost Optimization Part 4"
-background: '/img/posts/Rightsizing-azqr-excel-report.png'
+background: '/img/header.png'
 ---
 
 With Part 4 of our series on Azure cost optimization, we dive into rightsizing your resources. This process plays a crucial role in minimizing costs in your cloud environment. But what is rightsizing? How do you identify overprovisioned resources? And what's the best way to mitigate these inefficiencies?
@@ -62,7 +62,7 @@ Tip: Always inform relevant teams or users about findings and available rightsiz
 - [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
 - [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
-- Azure Cost Optimization Part 6 - Start small with commitments
+- [Azure Cost Optimization Part 6 - Start small with commitments](2024-12-30-azure-cost-optimization-part-6-start-small-with-commitments.md)
 - Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
 ## Conclusion

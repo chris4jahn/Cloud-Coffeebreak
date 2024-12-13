@@ -3,7 +3,7 @@ layout: post
 title: "How to move resources between regions"
 date: 2024-10-17
 subtitle: "with Azure Resource Mover"
-background: '/img/posts/Azure-Resource-Mover-07.png'
+background: '/img/header.png'
 ---
 Did you ever wanted to move resources in Azure to another region? This was not as easy as you might think. For virtual machines you could use Azure Site Recovery which is meant to replicate VMs between regions for high availability. But other resources had to be migrated one by one manually. With Azure Resource Mover you are now able to move several services between regions.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Der Azure Hybrid Benefit lohnt sich fast immer!"
 date: 2024-06-18
 subtitle: "selbst wenn du die Lizenzen dafür einkaufst"
-background: '/img/posts/005.png'
+background: '/img/header.png'
 ---
 Auf den Punkt gebracht ermöglicht der Azure Hybrit Benefit (ehemals Azure Hybrid Use Benefit) dir deine bestehenden Windows Server und SQL Server Lizenzen auch in der Cloud zu nutzen. Der Azure Hybrid Benefit (AHB) ermöglicht auf diese Art immense Einsparmöglichkeiten bei der Verwendung der Microsoft Server Produkte.
 

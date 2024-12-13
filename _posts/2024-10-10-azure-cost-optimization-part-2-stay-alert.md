@@ -3,7 +3,7 @@ layout: post
 title: "Define your budgets and stay alert!"
 date: 2024-10-10
 subtitle: "Azure Cost Optimization Part 2"
-background: '/img/posts/budget_alert_01.png'
+background: '/img/header.png'
 ---
 In this part of the blog series we are focussing on budgets and alerts. They are crucialfor your optimization journey, as they are the fundamental basis. You need to know what is expecting you in the upcoming months or years to being able to plan your spending in the cloud. Remember it's not CapEx, it's OpEx! 
 
@@ -78,7 +78,7 @@ You can find a Terraform module for creating anomaly alerts in my git repo [Terr
 - [Azure Cost Optimization Part 3 - Identify cloud waste](2024-10-16-azure-cost-optimization-part-3-identify-cloud-waste.md)
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
 - [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
-- Azure Cost Optimization Part 6 - Start small with commitments
+- [Azure Cost Optimization Part 6 - Start small with commitments](2024-12-30-azure-cost-optimization-part-6-start-small-with-commitments.md)
 - Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
 
 ## Conclusion
