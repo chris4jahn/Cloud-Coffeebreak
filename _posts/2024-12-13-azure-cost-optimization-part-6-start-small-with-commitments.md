@@ -18,6 +18,8 @@ Take it step by step. Start with just a few services, learn how commitments are 
 
 Starting small helps you avoid mistakes and fine-tune your strategy. Jumping in without preparation can lead to missteps, like committing to resources you don’t fully understand or can’t use effectively. It’s better to test the waters, learn how commitments align with your workloads, and build your strategy from there. Talk to people who’ve been through this process, and make sure you understand the commitment types and their pros and cons.
 
+<img src="/img/posts/saving-plan-or-reservation.png" class="img-fluid" alt="Slide with the Heading 'Saving Plan or Resrvation'. You can see two images showing the amount you could save either with Saving Plans or Reserved Instances in Azure. In the middle is a man with curley hair that looks confused and overwhelmed by the possibilities." />
+
 ## Types of Commitments
 
 Azure offers a few different types of commitments, and each has its strengths. Knowing when to use them is key to saving money while staying flexible. And remember, commitments aren’t a one-and-done thing - you’ll want to revisit and update them regularly as your needs evolve.
