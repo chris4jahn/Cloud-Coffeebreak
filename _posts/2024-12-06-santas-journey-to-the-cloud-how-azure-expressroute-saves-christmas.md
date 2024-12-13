@@ -3,7 +3,7 @@ layout: post
 title: "Santa’s Journey to the Cloud: How Azure ExpressRoute Saves Christmas"
 date: 2024-12-06
 subtitle: "Festive Tech Calendar"
-background: '/img/posts/santas-digitization-express-route.png'
+background: '/img/header.png'
 ---
 
 The holiday season is the busiest time of the year for Santa Claus. Every year, millions of letters flood his workshop, detailing the wishes of children from all corners of the globe. But as the years went by, managing this ever-growing pile of paper became increasingly challenging. Santa realized it was time for a change. It was time for digitization.

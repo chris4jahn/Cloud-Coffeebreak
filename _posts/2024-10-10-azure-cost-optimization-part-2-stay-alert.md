@@ -3,7 +3,7 @@ layout: post
 title: "Define your budgets and stay alert!"
 date: 2024-10-10
 subtitle: "Azure Cost Optimization Part 2"
-background: '/img/posts/budget_alert_01.png'
+background: '/img/header.png'
 ---
 In this part of the blog series we are focussing on budgets and alerts. They are crucialfor your optimization journey, as they are the fundamental basis. You need to know what is expecting you in the upcoming months or years to being able to plan your spending in the cloud. Remember it's not CapEx, it's OpEx! 
 

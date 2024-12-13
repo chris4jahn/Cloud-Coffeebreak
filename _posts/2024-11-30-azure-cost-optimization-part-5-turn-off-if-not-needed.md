@@ -3,7 +3,7 @@ layout: post
 title: "Turn off if not needed"
 date: 2024-11-30
 subtitle: "Azure Cost Optimization Part 5"
-background: '/img/posts/Azure-Auto-Shutdown.png'
+background: '/img/header.png'
 ---
 
 The cloud is meant to be used differently than on-premises resources. There's no "we have it, we use it" mindset in Azure. If you want to get the most out of your cloud environment, you need to adopt the **pay-as-you-go (PAYG)** model. This also means shutting down services you don’t need. Make use of the flexibility Azure offers you.

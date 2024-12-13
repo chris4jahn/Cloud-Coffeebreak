@@ -3,7 +3,7 @@ layout: post
 title: "Azure Naming Conventions Best Practices"
 date: 2024-03-30
 subtitle: "Azure Governance"
-background: '/img/posts/003.png'
+background: '/img/header.png'
 ---
 Namens Konventionen sind wichtig, da sie dabei helfen Ressourcen schnell zu identifizieren. Um welchen Typ einer Ressource handelt es sich? Wo liegt sie? Was ist die Aufgabe der Ressourcen? Usw.
 

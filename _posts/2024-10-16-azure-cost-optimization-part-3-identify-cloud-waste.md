@@ -3,7 +3,7 @@ layout: post
 title: "Identify cloud waste!"
 date: 2024-10-16
 subtitle: "Azure Cost Optimization Part 3"
-background: '/img/posts/Orphaned_Resources_Workbook.png'
+background: '/img/header.png'
 ---
 In this part of the blog series focussing on Azure cost optimization we will have a look at cloud waste and how to get rid of it. As flexibility and agility is a key driver of cloud, cloud waste is not avoidable. But we don't want to waste our money on it, that's why we need to find and eliminate it.
 
