@@ -3,7 +3,7 @@ layout: post
 title: "Prevent Accidental Deletion and Changes with Azure Resource Locks"
 date: 2024-11-06
 subtitle: "Don't spend hours or days redeploying infrastructure"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 
 Everyone has experienced this scenario: you're pressed for time, needing to quickly delete old resources just before the weekend. But making decisions under pressure often leads to mistakes.

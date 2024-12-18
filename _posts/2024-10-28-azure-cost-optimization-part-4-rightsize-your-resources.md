@@ -3,7 +3,7 @@ layout: post
 title: "Rightsize your resources"
 date: 2024-10-28
 subtitle: "Azure Cost Optimization Part 4"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 
 With Part 4 of our series on Azure cost optimization, we dive into rightsizing your resources. This process plays a crucial role in minimizing costs in your cloud environment. But what is rightsizing? How do you identify overprovisioned resources? And what's the best way to mitigate these inefficiencies?

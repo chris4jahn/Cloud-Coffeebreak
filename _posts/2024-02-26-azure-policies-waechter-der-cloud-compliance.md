@@ -3,7 +3,7 @@ layout: post
 title: "Azure Policies: Der Wächter deiner Cloud-Compliance"
 date: 2024-02-26
 subtitle: "Azure Governance"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 Azure Policies sind eine Sammlung von Regeln und Best Practices, die dir dabei helfen, deine Azure-Ressourcen konform und sicher zu halten. Sie ermöglichen es dir, deine Cloud-Umgebung nach deinen eigenen Governance-Vorgaben, bzw. denen deines Unternehmens, zu gestalten und zu überwachen.
 

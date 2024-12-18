@@ -3,7 +3,7 @@ layout: post
 title: "Are you paying too much for your cloud?"
 date: 2024-09-25
 subtitle: "Azure Cost Optimization Part 0"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 I bet you are paying too much for your cloud services. Why I think I know that? Because I guess everyone does. The only person that is not paying too much, is the person not using cloud services. What do you think?
 

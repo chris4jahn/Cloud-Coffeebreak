@@ -3,7 +3,7 @@ layout: post
 title: "So erstellst du deinen Service Health Alert"
 date: 2024-07-14
 subtitle: "Hands on Azure"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 In diesem Hands on Azure zeige ich dir, wie du einen Azure Service Health Alert erstellen kannst. Zuerst machen wir das über das Azure Portal. In einem der nächsten Posts nutzen wir Terraform, um es automatisiert per Infrastructure as Code bereit zu stellen. 
 
