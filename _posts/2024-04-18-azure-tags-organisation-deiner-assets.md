@@ -3,7 +3,7 @@ layout: post
 title: "Azure Tags: Organisation für deine Cloud Assets"
 date: 2024-04-18
 subtitle: "Azure Governance"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 Azure Tags helfen dir dabei einen Überblick über deine Cloud Ressourcen zu bewahren. Sie sind ein wichtiges Werkzeug bei der Organisation und sollten möglichst von Anfang an, oder zumindest frühzeitig etabliert und durchgesetzt werden. Die Tags hängen auch mit der [Naming Convention](2024-03-30-azure-naming-conventions.md) zusammen, weshalb die beiden Punkte gerne zusammen bearbeitet werden.
 

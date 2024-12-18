@@ -3,7 +3,7 @@ layout: post
 title: "Die Hierarchie mit Management Groups etablieren"
 date: 2024-01-28
 subtitle: "Azure Governance"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 Azure Management Groups bieten eine effiziente Möglichkeit, den Zugriff, Richtlinien und die Konformität über viele Azure Subscriptions hinweg zu verwalten. Sie ermöglichen es, Subscriptions in einer Hierarchie zu organisieren, die eine einheitliche Richtlinien- und Zugriffsverwaltung unterstützt.
 
