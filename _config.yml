@@ -3,6 +3,7 @@
 title: Cloud Coffeebreak
 author: Christian Forjahn
 description: Tiny tech snacks for your coffeebreak!
+baseurl: /
 ### weitere Theme-bezogene Einstellungen
 #background: '/PATH_TO_IMAGE'
 linkedin_username: christian-forjahn
