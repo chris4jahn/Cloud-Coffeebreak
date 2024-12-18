@@ -3,7 +3,7 @@ layout: post
 title: "Start Small with Commitments"
 date: 2024-12-13
 subtitle: "Azure Cost Optimization Part 6"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 
 One of the first things that come to mind when talking about **Azure cost optimization** is **reservations**. By committing to a plan, like a VM family for 1 or 3 years, you can save a lot of money. But reservations aren’t the only way to commit. To get the most out of your cloud spend, you need to know the different types of commitments and how to use them. Let’s dive into the options and figure out when to use what.
