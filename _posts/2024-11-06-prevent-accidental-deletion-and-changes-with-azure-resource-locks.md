@@ -38,14 +38,14 @@ Applying a Resource Lock in the Azure Portal is straightforward. You can lock re
 Navigate to the specific resource or resource group.
 Go to Settings > Locks.
 
-<img src="/img/posts/creating-resource-lock-using-azure-portal.png" class="img-fluid"/>
-Click Add to create a new Resource Lock. Choose the lock type (Delete or Read-Only) and provide a name for the lock.
-
-<img src="/img/posts/cannot-delete-resource-group.png" class="img-fluid"/>
+![Cannot delete resource group](/img/posts/cannot-delete-resource-group.png){: .img-fluid}
 After adding a lock: You won’t be able to delete the resource.
 
-<img src="/img/posts/cannot-delete-resource.png" class="img-fluid"/>
+![Cannot delete resource](/img/posts/cannot-delete-resource.png){: .img-fluid}
 Nor can you delete the resource within the resource group.
+
+![Creating resource lock using Azure Portal](/img/posts/creating-resource-lock-using-azure-portal.png){: .img-fluid}
+Click Add to create a new Resource Lock. Choose the lock type (Delete or Read-Only) and provide a name for the lock.
 
 The lock can only be managed by users with the Owner or User Access Administrator roles or custom roles with the `Microsoft.Authorization/locks/*` permission.
 
@@ -57,7 +57,7 @@ Resource locks can also be created using the Azure CLI, such as in the Azure Clo
 az lock create --name LockGroup --lock-type CanNotDelete --resource-group RGResourceLock
 ```
 
-<img src="/img/posts/creating-resource-lock-using-azure-cli.png" class="img-fluid"/>
+![Creating resource lock using Azure CLI](/img/posts/creating-resource-lock-using-azure-cli.png){: .img-fluid}
 USe Azure Cloud Shell to adding a resource lock.
 
 ## Limitations of Azure Resource Locks

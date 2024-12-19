@@ -42,10 +42,10 @@ The azqr command-line tool can help identify overprovisioned resources, among ot
 
 ### How to Use azqr for Rightsizing
 
-<img src="/img/posts/Rightsizing-using-azqr.png" class="img-fluid" alt="Azure Quick Review Command"/>
+![Azure Quick Review Command](/img/posts/Rightsizing-using-azqr.png){: .img-fluid}
 Start by logging in with az login. Choose the subscription you want to scan. Run the command azqr scan.
 
-<img src="/img/posts/Rightsizing-azqr-excel-report.png" class="img-fluid" alt="Azure Quick Review Excel Report"/>
+![Azure Quick Review Excel Report](/img/posts/Rightsizing-azqr-excel-report.png){: .img-fluid}
 After scanning, an Excel report is generated in the directory where you ran the command, providing a structured list of rightsizing recommendations.
 
 ## Implementing Rightsizing Recommendations

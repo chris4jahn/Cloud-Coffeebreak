@@ -10,7 +10,7 @@ The holiday season is the busiest time of the year for Santa Claus. Every year, 
 
 This is the story of how Santa moved his operations to the cloud and ensured Christmas joy for everyone with the help of Azure ExpressRoute.
 
-<img src="/img/posts/santas-digitization-express-route.png" class="img-fluid" alt="Lego-style image of me assisting Santa with his digitization using Azure services and ExpressRoute in a festive and tech-savvy setting" />
+![Lego-style image of me assisting Santa with his digitization using Azure services and ExpressRoute in a festive and tech-savvy setting](/img/posts/santas-digitization-express-route.png){: .img-fluid}
 
 ## A Cloudy Christmas for Santa
 
@@ -18,7 +18,7 @@ With millions of letters arriving at the North Pole each year, Santa’s team fa
 
 But this was no ordinary migration. Santa deals with a lot of personal information, including names, addresses, and wish lists. Ensuring a secure and resilient connection to the cloud was crucial to protect sensitive data and deliver the right gifts to every child.
 
-## Santa’s choice? Azure ExpressRoute.
+## Santa’s choice? Azure ExpressRoute
 
 ### Why Santa Chose Azure ExpressRoute
 

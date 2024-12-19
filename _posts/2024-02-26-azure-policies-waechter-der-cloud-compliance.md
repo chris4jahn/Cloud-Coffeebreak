@@ -24,29 +24,26 @@ Insbesondere auch im Zusammenspiel mit Defender for Cloud um regulatorische Anfo
 
 ## Wie konfigurierst du Azure Policies?
 
-Navigiere zum [Azure Portal](https://portal.azure.com) und nutze die Suchfunktion. Suche nach "Policy" und wähle den Eintrag aus.
+![Azure Policy Screenshot](/img/01AzurePolicy.png){: .img-fluid}
+Navigiere zum [Azure Portal](https://portal.azure.com){:target="_blank"} und nutze die Suchfunktion. Suche nach "Policy" und wähle den Eintrag aus.
 
-<img class="img-fluid" src="/img/01AzurePolicy.png" />
-
+![Azure Policy Assign Policy Screenshot](/img/02AzurePolicyAssignPolicy.png){: .img-fluid}
 Hier kannst du die Option "Assign Policy" auswählen, um eine bestehende Policy auszuwählen und anzuwenden.
 
-<img class="img-fluid" src="/img/02AzurePolicyAssignPolicy.png" />
-
+![Azure Policy Assign Basic Screenshot](/img/03AzurePolicyAssignBasic.png){: .img-fluid}
 Wähle die gewünschte Policy aus. In meinem Fall, habe ich eine der Standard Policies ausgewählt, die nahezu bei jedem Kunden Anwendung findet. Mit der Policy "Allowed resource deployment regions" schränkst du ein, in welchen Regionen Azure Ressourcen erstellt werden dürfen.
-
-<img class="img-fluid" src="/img/03AzurePolicyAssignBasic.png" />
 
 Unter den Parameter Settings kannst du auswählen, in welchen Regionen die Ressourcen angelegt werden dürfen und für welchen Scope das gilt. In meinem Fall ist der Scope die "Tenant Root Group". Das bedeutet es gilt für alle darunterligenden Subscriptions. Ich habe mich für dieses Beispiel auf die Regionen in Deutschland beschränkt. Da es tlw. Ressourcen gibt, die global bereitgestellt werden, wähle ich auch diese mit aus. Ansonsten können manche Ressourcen wie z.B. Entra ID, Azure Traffic Manager, oder Azure DNS nicht erstellt werden.
 
 Hinweis: Da noch nicht alle Ressourcen in den deutschen Regionen bereitstehen, empfehle ich die Settings so nur bedingt.
 
-<img class="img-fluid" src="/img/04AzurePolicyParameter.png" />
+![Azure Policy Parameter Screenshot](/img/04AzurePolicyParameter.png){: .img-fluid}
 
 Mit der "Non Compliance Message" kann ich definieren, welche Meldung ein Administrator erhält, wenn er versucht eine Ressource z.B. in den USA zu erstellen. Das hilft, dem Admin zu verstehen, warum sein Deployment nicht klappt.
 
 Tipp: Es macht Sinn hier weiterführende Informationen zu hinterlegen, z.B. wen der Benutzer ansprechen kann.
 
-<img class="img-fluid" src="/img/05AzurePolicyNonComplianceMessage.png" />
+![Azure Policy Non Compliance Message](/img/05AzurePolicyNonComplianceMessage.png){: .img-fluid}
 
 Neben den bereits existenten Policies können auch eigene erstellt werden.
 

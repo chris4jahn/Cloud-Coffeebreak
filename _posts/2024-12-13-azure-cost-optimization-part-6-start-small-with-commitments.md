@@ -63,14 +63,14 @@ Windows Virtual Machines, SQL Databases
 
 Now that you know the basics, let’s figure out when to use **Reserved Instances** and when to go with **Saving Plans**:
 
-### Choose Reserved Instances if:
+### Choose Reserved Instances if
 
 - Your workloads are **predictable**, like production servers or databases that run 24/7.  
 - You want **maximum savings**—RIs offer the biggest discounts, up to 72%.  
 - You don’t need flexibility across regions or VM families.  
 - You like having the option to **exchange or cancel** if your needs change.  
 
-### Choose Saving Plans if:
+### Choose Saving Plans if
 
 - Your workloads are **dynamic** or spread across multiple regions and services.  
 - You want the **freedom** to shift resources between VM families, regions, or even other Azure services.  

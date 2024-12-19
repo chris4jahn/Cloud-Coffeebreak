@@ -17,11 +17,11 @@ FinOps ist eine Disziplin, die Finanzverwaltung mit Cloud Engineering und dem Be
 
 In den folgenden Zeilen gehen wir auf die drei Phasen von FinOps ein und welche Tools dir bei der Umsetzung der Phasen in Azure helfen
 
-<img class="img-fluid" src="/img/005.png" />
+![FinOps Phases](/img/005.png){: .img-fluid}
 
 ### Inform
 
-Die Informationsphase ist der erste Schritt auf der FinOps-Journey. Sammle zunächst Daten aus verschiedenen Quellen, um Einblicke in deine Cloudnutzungs- und Ausgabenmuster zu erhalten. In dieser Phase konzentrierst du dich auf Berichterstellung, Anomalieerkennung, Benchmarktests, Kostenzuordnung, Taxonomie, Tagging, Prognosen und Budgetierung. 
+Die Informationsphase ist der erste Schritt auf der FinOps-Journey. Sammle zunächst Daten aus verschiedenen Quellen, um Einblicke in deine Cloudnutzungs- und Ausgabenmuster zu erhalten. In dieser Phase konzentrierst du dich auf Berichterstellung, Anomalieerkennung, Benchmarktests, Kostenzuordnung, Taxonomie, Tagging, Prognosen und Budgetierung.
 
 * Schätze deine Cloudkosten mit dem Azure Preisrechner und dm TCO Rechner
 * Ermögliche den Teams fundierte Entscheidungen zu treffen auf Basis von Leistungs-, Kosteninformationen und Anomalien mit dem Microsoft Cost Management und Azure Advisor
@@ -39,11 +39,11 @@ Die Optimierungsphase ist der zweite Schritt der FinOps-Journey. Identifiziere u
 
 ### Operate
 
-Die Betriebsphase ist der letzte Schritt auf der FinOps-Journey. Richte dein Framework für die fortlaufende Cloud Kostenverwaltung und [Governance](2024-03-18-governance-in-der-cloud.md) ein, damit deine Organisation langfristig eine optimale Cloudnutzung und Kosteneffizienz gewährleisten kann. In dieser Phase konzentrierst du dich auf die organisatorische und kulturelle Einführung bewährter FinOps-Methoden. 
+Die Betriebsphase ist der letzte Schritt auf der FinOps-Journey. Richte dein Framework für die fortlaufende Cloud Kostenverwaltung und [Governance](2024-03-18-governance-in-der-cloud.md) ein, damit deine Organisation langfristig eine optimale Cloudnutzung und Kosteneffizienz gewährleisten kann. In dieser Phase konzentrierst du dich auf die organisatorische und kulturelle Einführung bewährter FinOps-Methoden.
 
 * Lege Richtlinien für deine Ressourcen fest, um Cloud-Compliance zu gewährleisten, fehlerhafte Konfigurationen zu vermeiden und eine konsistente Ressourcenkontrolle mit [Azure Policy](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) durchzusetzen
-* Vereinfache und beschleunige deine Cloud Journey mit Erkenntnissen aus Azure Migrate und Unterstützung von Experten eines Microsoft Partners, wie die <a href="https://www.provectus.de" target="_blank">Provectus Technologies</a>
-* Nutze das Cloud Adoption Framework und Well-Architected Framework, um Best Practices zur Verbesserung deiner Cloud Journey einzuführen
+* Vereinfache und beschleunige deine Cloud Journey mit Erkenntnissen aus Azure Migrate und Unterstützung von Experten eines Microsoft Partners, wie die [Provectus Technologies](https://www.provectus.de){:target="_blank"}
+* Nutze das [Cloud Adoption Framework](https://docs.microsoft.com/azure/cloud-adoption-framework){:target="_blank"} und [Well-Architected Framework](https://docs.microsoft.com/azure/architecture/framework){:target="_blank"} um Best Practices zur Verbesserung deiner Cloud Journey einzuführen
 * Ermögliche es deinem Team sich fortzubilden, um die Produktivität zu steigern, z.B. durch Microsoft-Zertifizierungen
 * Fördere die Zusammenarbeit im Team mit Microsoft 365 und Microsoft Teams, um Silos aufzulösen.
 
@@ -51,4 +51,4 @@ Die Betriebsphase ist der letzte Schritt auf der FinOps-Journey. Richte dein Fra
 
 FinOps kann dich dabei unterstützen deine Cloud Kosten efiizient zu nutzen. Azure bietet einige Tools, die richtig eingesetzt, dich bei deiner Optimierung unterstützen. In zukünftigen Artikeln werde ich auf einzelne Aspekte und Tools genauer eingehen.
 
-Hast du Fragen, oder Anregungen? Dann kontaktiere mich gerne über <a href="https://www.linkedin.com/in/christian-forjahn/" target="_blank">LinkedIn</a>.
+Hast du Fragen, oder Anregungen? Dann kontaktiere mich gerne über [LinkedIn](https://www.linkedin.com/in/christian-forjahn/){:target="_blank"}.
