@@ -46,13 +46,11 @@ Microsoft empfiehlt folgende Überlegungen für die Tags:
 Tags sind eine Kombination aus "Key" und "Value". Das bedeutet, dass du Tags in "Keys" organisierst, bspw. "Abteilung" und die Werte dann beliebig wählen kannst, z.B. "Marketing".
 Vorsicht: Du solltest Tags vorgeben, die verwendet werden sollen, da ansonsten schnell Wildwuchs entstehen kann, wenn jeder seine eigenen Keys, oder Values anlegt. Keys sind nicht Case-sensitive, Values aber schon.
 
+![Tags anlegen](/img/TagsAnlegen.png){: .img-fluid}
 Tags sind über jede Ressourcengruppe, oder Ressourcen verfügbar. Du kannst über den Punkt "Tag" neue Tags anlegen, oder bestehende bearbeiten.
 
-<img class="img-fluid" src="/img/TagsAnlegen.png" />
-
+![Tags Übersicht](/img/TagsUebersicht.png){: .img-fluid}
 In der Tags-Übersicht siehst du welche Tags in deiner Subscription verwendet werden.
-
-<img class="img-fluid" src="/img/TagsUebersicht.png" />
 
 Auch beim erstellen von neuen Ressourcen gibt es immer einen Reiter, um die Tags zu hinterlegen.
 

@@ -21,8 +21,7 @@ To efficiently turn off services during nights and weekends, **automation** is y
 ### Auto-Shutdown for Virtual Machines
 
 The simplest way to start is by enabling **Auto-Shutdown** for Azure Virtual Machines. This feature is perfect for test environments or developer machines that don’t need to run overnight. Developers can start their environments manually when they begin work the next day.
-
-<img src="/img/posts/Azure-Auto-Shutdown.png" class="img-fluid" alt="Azure Auto-Shutdown Feature" />
+![Azure Auto-Shutdown Feature](/img/posts/Azure-Auto-Shutdown.png){: .img-fluid}
 *The Auto-Shutdown feature in the Azure Portal simplifies managing costs for Virtual Machines.*
 
 ### Using Tags for Systematic Shutdown
@@ -73,8 +72,7 @@ Tags make it easier to identify and group resources for automated processes.
 ### Step 2: Create an Azure Automation Account
 
 Set up an **Azure Automation Account** to manage shutdown and restart tasks.
-
-<img src="/img/posts/Azure-Automation-Account.png" class="img-fluid" alt="Create an Azure Automation Account" />
+![Create an Azure Automation Account](/img/posts/Azure-Automation-Account.png){: .img-fluid}
 Search for "Automation" and create an Azure Automation Account.
 
 ### Step 3: Create a Runbook

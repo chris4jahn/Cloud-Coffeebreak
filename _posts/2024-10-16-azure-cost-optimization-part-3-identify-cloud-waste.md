@@ -28,21 +28,21 @@ Be careful with deleting cloud waste. There can be reasons for not deleting thes
 As you can see see once again, accountablity is the key for optimization. The decision of what services can be deleted must be taken from the accountable team or user.
 
 If you don't have an accountable person, make use of the "cry-test". Turn the service off and wait for some weeks if someone cries. Unsused services can then be deleted or costs at least can being reduced.  
-To reduce storage costs you can move the data to cold or archieve tier, or reduce the size of disks. 
+To reduce storage costs you can move the data to cold or archieve tier, or reduce the size of disks.
 
 ## Find orphaned resources with an Azure workbook
 
 The Azure Workbook [Azure Orphaned Resources v2.0](https://github.com/dolevshor/azure-orphan-resources?tab=readme-ov-file) gives you an overwiew of where to realize cost savings by reducing waste in your Azure subscriptions.  
 Hint: Before taking care on the orphaned resources talk to the accountable teams.
 
-<img src="/img/posts/Orphaned_Resources_Workbook.png" class="img-fluid"/>
+![Orphaned Resources Workbook](/img/posts/Orphaned_Resources_Workbook.png{: .img-fluid})
 Here you can see an overview of orphaned services from the workbook.
 
 Here is a [grafana dashboard](https://github.com/Azure-Samples/azure-orphan-resources-grafana-dashboard) for identifiying cloud waste like orphaned resources.
 
 ## How to identify services on your own?
 
-When you want to advance finding unused services there are several ways to do that. One option is to take a look at apps and services that have a very constant spend. Usually this means that the services have not been touched for a while. Check these resource groups for unattached disks, check the metrics of the services. Check who accessed the services. If there have been requests to the resources, ... This gives you a first hint. Then contact the accountable team and/or users and ask them to evaluate if the services are need or not. 
+When you want to advance finding unused services there are several ways to do that. One option is to take a look at apps and services that have a very constant spend. Usually this means that the services have not been touched for a while. Check these resource groups for unattached disks, check the metrics of the services. Check who accessed the services. If there have been requests to the resources, ... This gives you a first hint. Then contact the accountable team and/or users and ask them to evaluate if the services are need or not.
 
 ## Other posts in the cost optimization series
 
