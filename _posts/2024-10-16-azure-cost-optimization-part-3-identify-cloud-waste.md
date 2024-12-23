@@ -44,7 +44,7 @@ Here is a [grafana dashboard](https://github.com/Azure-Samples/azure-orphan-reso
 
 When you want to advance finding unused services there are several ways to do that. One option is to take a look at apps and services that have a very constant spend. Usually this means that the services have not been touched for a while. Check these resource groups for unattached disks, check the metrics of the services. Check who accessed the services. If there have been requests to the resources, ... This gives you a first hint. Then contact the accountable team and/or users and ask them to evaluate if the services are need or not.
 
-## Other posts in the cost optimization series
+## Other Posts in the Cost Optimization Series
 
 - [Azure Cost Optimization Part 0 - Are you paying too much for your cloud?](2024-09-25-are-you-paying-too-much-for-your-cloud.md)
 - [Azure Cost Optimization Part 1 - Know your costs](2024-10-01-azure-cost-optimization-part-1-know-your-costs.md)
@@ -53,7 +53,7 @@ When you want to advance finding unused services there are several ways to do th
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
 - [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
 - [Azure Cost Optimization Part 6 - Start small with commitments](2024-12-30-azure-cost-optimization-part-6-start-small-with-commitments.md)
-- Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
+- [Azure Cost Optimization Part 7 - Bring cloud cost optimization into your organization](2024-12-23-azure-cost-opmization-part-7-bring-cloud-cost-optimization-to-your-organization.md)
 
 ## Conclusion
 

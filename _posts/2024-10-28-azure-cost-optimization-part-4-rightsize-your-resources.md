@@ -54,7 +54,7 @@ Once you have a list of rightsizing recommendations, collaborate with accountabl
 
 Tip: Always inform relevant teams or users about findings and available rightsizing options.
 
-## Other posts in the cost optimization series
+## Other Posts in the Cost Optimization Series
 
 - [Azure Cost Optimization Part 0 - Are you paying too much for your cloud?](2024-09-25-are-you-paying-too-much-for-your-cloud.md)
 - [Azure Cost Optimization Part 1 - Know your costs](2024-10-01-azure-cost-optimization-part-1-know-your-costs.md)
@@ -63,7 +63,7 @@ Tip: Always inform relevant teams or users about findings and available rightsiz
 - [Azure Cost Optimization Part 4 - Rightsize your resources](2024-10-24-azure-cost-optimization-part-4-rightsize-your-resources.md)
 - [Azure Cost Optimization Part 5 - Turn off if not needed](2024-11-15-azure-cost-optimization-part-5-turn-off-if-not-needed.md)
 - [Azure Cost Optimization Part 6 - Start small with commitments](2024-12-30-azure-cost-optimization-part-6-start-small-with-commitments.md)
-- Azure Cost Optimization Part 7 - Bring cloud optimization into your organization
+- [Azure Cost Optimization Part 7 - Bring cloud cost optimization into your organization](2024-12-23-azure-cost-opmization-part-7-bring-cloud-cost-optimization-to-your-organization.md)
 
 ## Conclusion
 
