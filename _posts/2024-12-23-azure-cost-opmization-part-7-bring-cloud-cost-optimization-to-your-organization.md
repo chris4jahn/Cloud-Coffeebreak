@@ -6,7 +6,7 @@ subtitle: "Azure Cost Optimization Part 7"
 background: '/img/header.png'
 ---
 
-In my blog series, you’ve learned how to optimize your cloud costs. This final and most important step focuses on making optimization a habit—whether daily or at least weekly. **FinOps** can help you achieve this.
+In my blog series, you’ve learned how to optimize your cloud costs. This final and most important step focuses on making optimization a habit — whether daily or at least weekly. **FinOps** can help you achieve this.
 
 **FinOps**, short for Financial Operations, is a framework designed to help organizations optimize their cloud spending. It follows a continuous cycle of **"Inform, Optimize, Operate"**. In this post, we’ll dive into how to implement FinOps in your organization and achieve significant cost savings.
 
@@ -18,7 +18,7 @@ By implementing FinOps, you can gain visibility into your cloud spending, identi
 
 ## How to Implement FinOps
 
-![Image shows the capabilities you have to establish FinOps in your organization. For those starting, focus on Data Ingestion, Allocation, Reporting & Analytics, Forecasting, Budgeting, Workload Optimization, Rate Optimization, FinOps Practice Operations, Education & Enablement, Tools & Services.](/img/posts/adopting-finops-2024-2.png){: .img-fuid}
+![Image shows the capabilities you have to establish FinOps in your organization. For those starting, focus on Data Ingestion, Allocation, Reporting & Analytics, Forecasting, Budgeting, Workload Optimization, Rate Optimization, FinOps Practice Operations, Education & Enablement, Tools & Services.](/img/posts/adopting-finops-2024-2.png){: .img-fluid}
 *FinOps capabilities to optimize your cloud costs. [Source: FinOps Foundation](https://www.finops.org/)*
 
 In earlier posts, I introduced you to various operational measures for cost optimization. **FinOps** helps establish the processes and organizational changes needed for sustainable cost management. To implement FinOps, follow these stages:
