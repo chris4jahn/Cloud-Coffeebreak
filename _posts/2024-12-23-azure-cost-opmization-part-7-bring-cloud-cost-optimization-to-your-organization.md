@@ -6,7 +6,7 @@ subtitle: "Azure Cost Optimization Part 7"
 background: '/img/header.png'
 ---
 
-In my blog series, you’ve learned how to optimize your cloud costs. This final and most important step focuses on making optimization a habit—whether daily or at least weekly. **FinOps** can help you achieve this.
+In my blog series, you’ve learned how to optimize your cloud costs. This final and most important step focuses on making optimization a habit — whether daily or at least weekly. **FinOps** can help you achieve this.
 
 **FinOps**, short for Financial Operations, is a framework designed to help organizations optimize their cloud spending. It follows a continuous cycle of **"Inform, Optimize, Operate"**. In this post, we’ll dive into how to implement FinOps in your organization and achieve significant cost savings.
 
