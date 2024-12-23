@@ -3,7 +3,7 @@ layout: post
 title: "Bring Cloud Cost Optimization into Your Organization"
 date: 2024-12-23
 subtitle: "Azure Cost Optimization Part 7"
-background: '/img/header.png'
+background: '/img/header.webp'
 ---
 
 In my blog series, you’ve learned how to optimize your cloud costs. This final and most important step focuses on making optimization a habit — whether daily or at least weekly. **FinOps** can help you achieve this.
