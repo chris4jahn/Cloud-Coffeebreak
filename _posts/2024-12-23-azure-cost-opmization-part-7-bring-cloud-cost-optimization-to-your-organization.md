@@ -18,7 +18,7 @@ By implementing FinOps, you can gain visibility into your cloud spending, identi
 
 ## How to Implement FinOps
 
-![Image shows the capabilities you have to establish FinOps in your organization. For those starting, focus on Data Ingestion, Allocation, Reporting & Analytics, Forecasting, Budgeting, Workload Optimization, Rate Optimization, FinOps Practice Operations, Education & Enablement, Tools & Services.](/img/posts/adopting-finops-2024-2.png)  
+![Image shows the capabilities you have to establish FinOps in your organization. For those starting, focus on Data Ingestion, Allocation, Reporting & Analytics, Forecasting, Budgeting, Workload Optimization, Rate Optimization, FinOps Practice Operations, Education & Enablement, Tools & Services.](/img/posts/adopting-finops-2024-2.png){: .img-fuid}
 *FinOps capabilities to optimize your cloud costs. [Source: FinOps Foundation](https://www.finops.org/)*
 
 In earlier posts, I introduced you to various operational measures for cost optimization. **FinOps** helps establish the processes and organizational changes needed for sustainable cost management. To implement FinOps, follow these stages:
