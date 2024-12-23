@@ -15,3 +15,5 @@ You need your backups for data loss. multiple cases. accidental deletion of data
 Ransomware protection thorugh disconnecting Backup vault and backup items. No direct connection possible.
 
 Multi User Access as an additional security layer to not allowing deletion of data without an approval workflow through security.
+
+Network Security Perimeter
