@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Backup"
-date: 2025-01-05
+date: 2025-01-01
 subtitle: "Reliable Recovery with Multi-User Authorization (MUA)"
 background: '/img/header.webp'
 ---
