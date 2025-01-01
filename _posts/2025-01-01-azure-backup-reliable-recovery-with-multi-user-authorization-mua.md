@@ -58,6 +58,10 @@ If a backup administrator attempts to delete a backup without the appropriate pe
 
 This ensures that unauthorized deletion attempts—whether accidental or malicious—are effectively prevented.
 
+## What's next? Securing the Roles using Privileged Identity Management (PIM)
+
+In one of my next blog posts I will go into using Privileged Identity Management (PIM). With PIM you can enable priviledged roles on demand and add an approval workflow on top of that. As this would go beyond the scope of this blog post, I will write a separate article about it in the next days.
+
 ## Conclusion: Secure Your Backup Strategy with MUA
 
 Azure Backup provides a robust foundation for data recovery, but adding **Multi-User Authorization (MUA)** elevates your backup security to the next level. MUA ensures that no single account can compromise your backups, protecting your organization from accidental deletions, insider threats, and ransomware attacks.
