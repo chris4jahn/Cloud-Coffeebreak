@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Privileged Identity Management"
-date: 2025-01-01
+date: 2025-01-15
 subtitle: "Secure your Accounts with PIM"
 background: '/img/header.webp'
 ---
