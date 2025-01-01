@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Azure Backup"
+title: "Overlooked Azure Backup Feature"
 date: 2025-01-01
-subtitle: "Reliable Recovery with Multi-User Authorization (MUA)"
+subtitle: "Additional Security with Multi-User Authorization (MUA)"
 background: '/img/header.webp'
 ---
 
