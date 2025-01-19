@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Privileged Identity Management"
+title: "What have CarPools and Privileged Identity Management in Common?"
 date: 2025-01-20
 subtitle: "Enhancing Backup Security with Azure PIM"
 background: '/img/header.webp'
