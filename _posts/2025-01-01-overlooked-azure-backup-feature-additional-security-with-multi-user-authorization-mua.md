@@ -61,6 +61,7 @@ This ensures that unauthorized deletion attempts—whether accidental or malicio
 ## What's next? Securing the Roles using Privileged Identity Management (PIM)
 
 In one of my next blog posts I will go into using Privileged Identity Management (PIM). With PIM you can enable priviledged roles on demand and add an approval workflow on top of that. As this would go beyond the scope of this blog post, I will write a separate article about it in the next days.
+Update: Here is the blog post to [using PIM for securing backups](./2025-01-20-enhancing-backup-security-with-azure-pim.md).
 
 ## Conclusion: Secure Your Backup Strategy with MUA
 
