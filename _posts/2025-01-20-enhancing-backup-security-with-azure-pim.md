@@ -6,7 +6,7 @@ subtitle: "Enhancing Backup Security with Azure PIM"
 background: '/img/header.webp'
 ---
 
-In my recent blog post, I discussed [how to secure backups using Azure Resource Guard](./2025-01-01-overlooked-azure-backup-feature-additional-security-with-multi-user-authorization-mua.md) and the **Backup MUA Operator** role, ensuring that only authorized users can perform sensitive operations. Now, let’s take it a step further: by integrating **Azure Privileged Identity Management (PIM)**, you can elevate security and enforce **just-in-time (JIT)** access, ensuring admin roles are only active when needed.  
+In my last blog post, I discussed [how to secure backups using Azure Resource Guard](./2025-01-01-overlooked-azure-backup-feature-additional-security-with-multi-user-authorization-mua.md) and the **Backup MUA Operator** role, ensuring that only authorized users can perform sensitive operations. Now, let’s take it a step further: by integrating **Azure Privileged Identity Management (PIM)**, you can elevate security and enforce **just-in-time (JIT)** access, ensuring admin roles are only active when needed.  
 
 Think of PIM as a carpool manager. Imagine an employee needs a pool car to complete a task. They ask the pool manager for the keys, which are provided for a limited time to accomplish the job. Once done, the keys are returned. PIM works similarly by granting temporary admin privileges, reducing the risks of permanent elevated access while ensuring users can perform their tasks effectively.  
 
