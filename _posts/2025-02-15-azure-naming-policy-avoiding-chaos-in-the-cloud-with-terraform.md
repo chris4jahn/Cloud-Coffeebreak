@@ -18,6 +18,8 @@ Microsoft provides best practices for structuring resource names in Azure. A goo
 
 ### Key Naming Components
 
+!["Key components for naming Azure resources are: resource type, service name, environment, region, instance"](../img/posts/azure-resource-naming.png)
+
 When defining names, consider:
 
 - **Resource Type** (VM, Storage, VNet, etc.)
@@ -51,6 +53,8 @@ Consistency is key. Establishing a naming convention manually is error-prone, bu
 
 #### Option 1: Fixed Value Names
 
+The starter when using Infrastruvcture as code is to simply add the plain text into the "name" field.
+
 ```terraform
 resource "azurerm_resource_group" "rg" {
   name     = "rg-naming-test-gwc-001"
@@ -59,6 +63,8 @@ resource "azurerm_resource_group" "rg" {
 ```
 
 #### Option 2: Using Variables
+
+If you want to reuse variables, for example for multiple resources in the same region, you can define variables for that.
 
 ```terraform
 variable "rg-name" {
@@ -72,6 +78,8 @@ resource "azurerm_resource_group" "rg" {
 ```
 
 #### Option 3: Combining Multiple Variables
+
+If you are going to create mutliple resources you may want to reuse parts like prefixes, suffixes, etc. Then you can split your variables into smaller parts and concatinate them in the resource block.
 
 ```terraform
 variable "type" {
@@ -95,7 +103,7 @@ resource "azurerm_resource_group" "rg" {
 
 #### Option 4: Using Azure CAF Naming Module (Preferred)
 
-By leveraging the **CAF Naming Module**, you can define your naming scheme once and reuse it for all future resources.
+By leveraging the **CAF Naming Module**, you can define your naming scheme once and reuse it for all future resources. Some parts are baked in, like the abbreviations for the type, others can be defined in the "data" block.
 
 ```terraform
 # provider.tf
