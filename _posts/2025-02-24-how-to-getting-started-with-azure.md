@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Get Started with Azure"
+title: "How to Getting Started with Azure"
 date: 2025-02-14
 subtitle: "Your Steps for a Compliant and Secure Cloud"
 background: '/img/header.webp'
@@ -44,6 +44,8 @@ Setting up your Azure Landing Zone effectively involves several critical conside
 9. **Connectivity** – Design secure and scalable network connectivity.
 10. **Identity and Access Management** – Secure authentication and authorization practices.
 11. **Workloads** – Optimize deployment strategies for critical applications.
+
+In this blog series we will go deeply in each of these topics. The first post is already prepared and will be released soon. Stay tuned.
 
 ## Conclusion
 
