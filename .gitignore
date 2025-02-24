@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 .gitignore
+=======
+>>>>>>> dd82f49 (Update .gitignore)
 # OS generated files #
 ######################
 .DS_Store
