@@ -10,6 +10,8 @@ Starting a project in Azure requires careful planning and implementation of foun
 
 In this blog series, I'll dive into these essential topics, showing you how to automate each step using Infrastructure as Code (IaC). My primary tool of choice is Terraform, but I may also utilize Azure CLI or PowerShell where necessary.
 
+![LEGO Chris working on an "Azure Landing Zone" puzzle in a modern office setting](../img/posts/azure-landing-zone-puzzle.webp)
+
 ## Get Familiar with Azure Landing Zones
 
 Azure Landing Zones (ALZ) provide a structured approach to setting up Azure environments efficiently and securely. Before getting started, it’s beneficial to explore the following Microsoft resources:
