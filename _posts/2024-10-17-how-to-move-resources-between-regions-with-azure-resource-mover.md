@@ -78,7 +78,7 @@ In my case there was a remaining disk in the source RG. I had to delete that on 
 ## Limitations of Azure Resource Mover
 
 - At the moment only VMs with the Security Type Standard can be moved. Trusted Launch VMs (Gen 2)  or confidetnitial VMs cannot being moved.
-- Not all OS Types are supported. Check supported OS and versions at [Azure Site Recovery supported OS](https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-support-matrix#replicated-machine-operating-systems)
+- Not all OS Types are supported. Check supported OS and versions at [Azure Site Recovery supported OS](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix?WT.mc_id=MVP_439787#replicated-machine-operating-systems)
 - Not all resources and resource groups have been cleaned up. Check that on your own to be sure not to creating cloud waste.
 
 ## Conclusion

@@ -43,7 +43,7 @@ Die Betriebsphase ist der letzte Schritt auf der FinOps-Journey. Richte dein Fra
 
 * Lege Richtlinien für deine Ressourcen fest, um Cloud-Compliance zu gewährleisten, fehlerhafte Konfigurationen zu vermeiden und eine konsistente Ressourcenkontrolle mit [Azure Policy](2024-04-06-azure-policies-waechter-der-cloud-compliance.md) durchzusetzen
 * Vereinfache und beschleunige deine Cloud Journey mit Erkenntnissen aus Azure Migrate und Unterstützung von Experten eines Microsoft Partners, wie die [Provectus Technologies](https://www.provectus.de){:target="_blank"}
-* Nutze das [Cloud Adoption Framework](https://docs.microsoft.com/azure/cloud-adoption-framework){:target="_blank"} und [Well-Architected Framework](https://docs.microsoft.com/azure/architecture/framework){:target="_blank"} um Best Practices zur Verbesserung deiner Cloud Journey einzuführen
+* Nutze das [Cloud Adoption Framework](https://learn.microsoft.com/azure/cloud-adoption-framework/?WT.mc_id=MVP_439787){:target="_blank"} und [Well-Architected Framework](https://learn.microsoft.com/azure/well-architected/?WT.mc_id=MVP_439787){:target="_blank"} um Best Practices zur Verbesserung deiner Cloud Journey einzuführen
 * Ermögliche es deinem Team sich fortzubilden, um die Produktivität zu steigern, z.B. durch Microsoft-Zertifizierungen
 * Fördere die Zusammenarbeit im Team mit Microsoft 365 und Microsoft Teams, um Silos aufzulösen.
 
