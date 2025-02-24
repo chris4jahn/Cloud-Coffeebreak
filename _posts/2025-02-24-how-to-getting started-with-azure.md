@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Get Started with Azure"
-date: 2025-02-14
+date: 2025-02-24
 subtitle: "Your Steps for a Compliant and Secure Cloud"
 background: '/img/header.webp'
 ---
