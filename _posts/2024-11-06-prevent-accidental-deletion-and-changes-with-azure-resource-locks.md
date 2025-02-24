@@ -68,7 +68,7 @@ Read-Only locks on storage accounts may prevent certain actions, such as listing
 A Read-Only or Delete lock on a storage account does not prevent data deletion within the account.
 A Read-Only lock on a resource group containing an App Service plan prevents scaling the plan.
 A Read-Only lock on a resource group blocks the movement of resources into or out of the group, although a locked resource can still be moved to another group.
-For a comprehensive list of limitations, check [this Microsoft documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json#considerations-before-applying-your-locks).
+For a comprehensive list of limitations, check [this Microsoft documentation](https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources?tabs=json&WT.mc_id=MVP_439787#considerations-before-applying-your-locks){:target="_blank"}.
 
 ## Conclusion
 
