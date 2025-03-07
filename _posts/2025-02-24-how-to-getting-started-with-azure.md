@@ -47,7 +47,7 @@ Setting up your Azure Landing Zone effectively involves several critical conside
 10. **Identity and Access Management** – Secure authentication and authorization practices.
 11. **Workloads** – Optimize deployment strategies for critical applications.
 
-In this blog series we will go deeply in each of these topics. The first post is already prepared and will be released soon. Stay tuned.
+In this blog series, we will dive deep into each of these topics. The first post is already prepared and will be released soon. Stay tuned.
 
 ## Conclusion
 
