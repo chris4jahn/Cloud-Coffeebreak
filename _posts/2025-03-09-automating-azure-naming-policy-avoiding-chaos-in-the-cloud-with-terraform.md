@@ -22,7 +22,7 @@ Microsoft provides best practices for structuring resource names in Azure. A goo
 
 ### Key Naming Components
 
-![Key components for naming Azure resources: resource type, service name, environment, region, instance](../img/posts/azure-resource-naming.png)
+![Key components for naming Azure resources: resource type, service name, environment, region, instance](../img/posts/azure-resource-naming.png){: .img-fluid}
 
 Source: [Microsoft Learn - Define your naming convention](https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming?WT.mc_id=MVP_439787)
 
