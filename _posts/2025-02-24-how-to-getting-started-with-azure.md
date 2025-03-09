@@ -35,7 +35,7 @@ Azure Landing Zones (ALZ) provide a structured approach to setting up Azure envi
 
 Setting up your Azure Landing Zone effectively involves several critical considerations:
 
-1. **Naming Conventions** – Establish consistent, structured naming to enhance manageability.
+1. [**Naming Conventions** – Establish consistent, structured naming to enhance manageability.](../_posts/2025-03-09-automating-azure-naming-policy-avoiding-chaos-in-the-cloud-with-terraform.md)
 2. **Policies** – Define governance policies for security, compliance, and operational standards.
 3. **RBAC (Role-Based Access Control)** – Implement least privilege access controls for security.
 4. **Hierarchy with Management Groups and Subscriptions** – Organize workloads efficiently.

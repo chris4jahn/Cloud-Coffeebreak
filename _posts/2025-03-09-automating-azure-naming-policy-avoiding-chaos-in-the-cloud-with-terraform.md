@@ -121,6 +121,22 @@ resource "azurerm_resource_group" "rg" {
 
 This Terraform module ensures compliance with Microsoft's best practices while simplifying naming enforcement. Check out my [**GitHub repo**](https://github.com/chris4jahn/Azure-Playground) for more details.
 
+## Other Post in this Blog Series
+
+This post is part of a blog series on "How to Azure" using Infrastructure as Code. Over the next weeks these posts will get published and linked here.
+
+1. [**Naming Conventions** – Establish consistent, structured naming to enhance manageability.](../_posts/2025-03-09-automating-azure-naming-policy-avoiding-chaos-in-the-cloud-with-terraform.md)
+2. **Policies** – Define governance policies for security, compliance, and operational standards.
+3. **RBAC (Role-Based Access Control)** – Implement least privilege access controls for security.
+4. **Hierarchy with Management Groups and Subscriptions** – Organize workloads efficiently.
+5. **Monitoring** – Ensure proactive visibility into performance, security, and health.
+6. **Backup Strategies** – Establish robust backup and disaster recovery policies.
+7. **Patch Management** – Keep systems updated to minimize security vulnerabilities.
+8. **Cost Management** – Track and optimize spending to prevent budget overruns.
+9. **Connectivity** – Design secure and scalable network connectivity.
+10. **Identity and Access Management** – Secure authentication and authorization practices.
+11. **Workloads** – Optimize deployment strategies for critical applications.
+
 ## Conclusion
 
 A structured **naming convention** is crucial for maintaining order in your growing **Azure** environment. **Automating naming policies** with **Terraform** or another **Infrastructure as Code (IaC)** tool ensures consistency and prevents chaos. Investing time in a well-defined strategy today saves you from significant headaches as your cloud footprint expands.
