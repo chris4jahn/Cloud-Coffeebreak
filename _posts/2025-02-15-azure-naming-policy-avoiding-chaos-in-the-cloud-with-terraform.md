@@ -8,17 +8,23 @@ background: '/img/header.webp'
 
 A **naming policy** is essential when moving to the cloud. A well-defined naming convention helps maintain order within your subscriptions and enables quick identification of connected resources.
 
+In this blog post I want to start with the essentials of naming conventions. What are the rules? What are good ideas and what aren't? After that I will show you my preferred variant of ensuring naming policies by using Infrastructure as Code and the azurecaf module together with ...
+
+## My Brief History of Naming Conventions
+
 Over the past 12 years, I've seen many Azure environments evolve. Most customers started with an ungoverned approach before implementing company-wide rules and guardrails. This shift significantly improved their scalability and prevented operational chaos.
 
 You might be familiar with naming conventions like planets, Star Wars characters, or Lord of the Rings references. While fun, these approaches become impractical as environments grow, especially with multi-region deployments. A structured naming convention is crucial to meet expanding demands.
 
 ## Why Naming Conventions Matter
 
-Microsoft provides best practices for structuring resource names in Azure. A good naming convention enhances manageability, security, and automation.
+Microsoft provides best practices for structuring resource names in Azure. A good naming convention enhances manageability, security, and automation as it makes you identifying resources directly, shows connections between resources etc. 
 
 ### Key Naming Components
 
 !["Key components for naming Azure resources are: resource type, service name, environment, region, instance"](../img/posts/azure-resource-naming.png)
+
+Source: $link
 
 When defining names, consider:
 
@@ -29,7 +35,9 @@ When defining names, consider:
 
 ### Unique Naming Constraints
 
-Not all Azure resources follow the same naming rules. Be aware of scope-specific uniqueness requirements:
+Not all Azure resources follow the same naming rules. There are resources that allow upper- and lowercase, hyphens, etc. while others don't. Some need unique names, ... It can quickly become a challenge.
+
+Depending on the scope there are also requirements for uniqueness:
 
 - **Global**: DNS-dependent resources must be globally unique.
 - **Resource Groups**: Resources of the same type within a group must have unique names.
@@ -39,9 +47,12 @@ A **lowest common denominator** approach helps ensure naming consistency across 
 
 ## Best Practices for Azure Naming Conventions
 
-Using **hyphens (-) for separation** improves readability. Define and standardize key components for resource names to enhance governance and automation.
+Using **hyphens (-) for separation** improves readability. 
+Define and standardize key components for resource names to enhance governance and automation.
 
 ## Automating Naming Conventions
+
+Let's dive into the fun part now! How do we use IaC to automatically implement and enforce our naming convention? 
 
 ### Why Automation Matters
 
