@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Azure Naming Policy"
-date: 2025-02-15
-subtitle: "Avoiding Chaos in the Cloud with terraform"
+date: 2025-03-09
+subtitle: "Avoiding Chaos in the Cloud with Terraform"
 background: '/img/header.webp'
 ---
 
 A **naming policy** is essential when moving to the cloud. A well-defined naming convention helps maintain order within your subscriptions and enables quick identification of connected resources.
 
-In this blog post I want to start with the essentials of naming conventions. What are the rules? What are good ideas and what aren't? After that I will show you my preferred variant of ensuring naming policies by using Infrastructure as Code and the azurecaf module together with ...
+In this blog post, I’ll cover the essentials of naming conventions: the rules, best practices, and common mistakes. Then, I’ll show you my preferred method of enforcing naming policies using **Infrastructure as Code (IaC)** and the **Azure Cloud Adoption Framework (CAF) module**.
 
 ## My Brief History of Naming Conventions
 
@@ -18,13 +18,13 @@ You might be familiar with naming conventions like planets, Star Wars characters
 
 ## Why Naming Conventions Matter
 
-Microsoft provides best practices for structuring resource names in Azure. A good naming convention enhances manageability, security, and automation as it makes you identifying resources directly, shows connections between resources etc. 
+Microsoft provides best practices for structuring resource names in Azure. A good naming convention enhances manageability, security, and automation, helping you quickly identify resources and understand their relationships.
 
 ### Key Naming Components
 
-!["Key components for naming Azure resources are: resource type, service name, environment, region, instance"](../img/posts/azure-resource-naming.png)
+![Key components for naming Azure resources: resource type, service name, environment, region, instance](../img/posts/azure-resource-naming.png)
 
-Source: $link
+Source: [Microsoft Learn - Define your naming convention](https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming?WT.mc_id=MVP_439787)
 
 When defining names, consider:
 
@@ -35,9 +35,7 @@ When defining names, consider:
 
 ### Unique Naming Constraints
 
-Not all Azure resources follow the same naming rules. There are resources that allow upper- and lowercase, hyphens, etc. while others don't. Some need unique names, ... It can quickly become a challenge.
-
-Depending on the scope there are also requirements for uniqueness:
+Not all Azure resources follow the same naming rules. Some allow hyphens, while others only permit lowercase letters and numbers. Additionally, certain names must be unique at different scopes:
 
 - **Global**: DNS-dependent resources must be globally unique.
 - **Resource Groups**: Resources of the same type within a group must have unique names.
@@ -47,12 +45,11 @@ A **lowest common denominator** approach helps ensure naming consistency across 
 
 ## Best Practices for Azure Naming Conventions
 
-Using **hyphens (-) for separation** improves readability. 
-Define and standardize key components for resource names to enhance governance and automation.
+Using **hyphens (-) for separation** improves readability. Define and standardize key components for resource names to enhance governance and automation.
 
 ## Automating Naming Conventions
 
-Let's dive into the fun part now! How do we use IaC to automatically implement and enforce our naming convention? 
+Let's dive into the fun part! How do we use IaC to automatically implement and enforce our naming convention?
 
 ### Why Automation Matters
 
@@ -60,106 +57,69 @@ Consistency is key. Establishing a naming convention manually is error-prone, bu
 
 **Terraform** simplifies enforcing naming standards using variables and Microsoft's **Cloud Adoption Framework (CAF) Naming Module**.
 
-### Example: Terraform Naming Approaches
+### Using Azure CAF Naming Module
 
-#### Option 1: Fixed Value Names
+By leveraging the **CAF Naming Module**, you can define your naming scheme once and reuse it for all future resources. Some parts are built-in, like the abbreviations for resource types, while others can be customized in the "data" block.
 
-The starter when using Infrastruvcture as code is to simply add the plain text into the "name" field.
+Additionally, I recommend using the **Azure Location Module**, which standardizes location abbreviations across all resources. This module is based on Microsoft's [Geo-code mapping](https://learn.microsoft.com/azure/backup/scripts/geo-code-list?WT.mc_id=MVP_439787) which is very useful to find the common and standardized abbreviations for Azure regions. I sometimes used different ones in the past.
 
-```terraform
-resource "azurerm_resource_group" "rg" {
-  name     = "rg-naming-test-gwc-001"
-  location = "germanywestcentral"
-}
-```
+### Terraform Implementation
 
-#### Option 2: Using Variables
-
-If you want to reuse variables, for example for multiple resources in the same region, you can define variables for that.
+Below is a Terraform configuration for creating a **resource group** with a standardized naming convention. You can easily adapt this for other resources.
 
 ```terraform
-variable "rg-name" {
-  default = "rg-naming-test-gwc-001"
-}
-
-resource "azurerm_resource_group" "rg" {
-  name     = var.rg-name
-  location = "germanywestcentral"
-}
-```
-
-#### Option 3: Combining Multiple Variables
-
-If you are going to create mutliple resources you may want to reuse parts like prefixes, suffixes, etc. Then you can split your variables into smaller parts and concatinate them in the resource block.
-
-```terraform
-variable "type" {
-  default = "rg"
-}
-variable "name" {
-  default = "naming"
-}
-variable "env" {
-  default = "test"
-}
-variable "region_short" {
-  default = "gwc"
-}
-
-resource "azurerm_resource_group" "rg" {
-  name     = "${var.type}-${var.name}-${var.env}-${var.region_short}-001"
-  location = "germanywestcentral"
-}
-```
-
-#### Option 4: Using Azure CAF Naming Module (Preferred)
-
-By leveraging the **CAF Naming Module**, you can define your naming scheme once and reuse it for all future resources. Some parts are baked in, like the abbreviations for the type, others can be defined in the "data" block.
-
-```terraform
-# provider.tf
+# Azure-Playground/terraform/ResourceGroup/main.tf
 terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">=4.1.0"
+      version = "~> 2.0"
     }
     azurecaf = {
-      source = "aztfmod/azurecaf"
+      source  = "aztfmod/azurecaf"
+      version = "~> 1.2"
     }
   }
 }
-```
 
-```terraform
-# main.tf
+provider "azurerm" {
+  features {}
+}
+
+module "azure_location" {
+  source  = "azurerm/locations/azure"
+  version = "0.2.4"
+  location = "westeurope"
+}
+
 locals {
-    location = "germanywestcentral"
-    region_short = ["gwc"]
-    name = "naming"
-    caf_prefixes = ["myapp"]
-    caf_suffixes = ["test", "001"]
+    location = module.azure_location.location
+    region_short = [module.azure_location.short_name]
+    name = "Naming"
+    caf_prefixes = ["MyApp"]
+    caf_suffixes = ["Test", "001"]
     common_tags  = {
         environment = "Test"
         team        = "Cloud Infrastructure"
+        location    = module.azure_location.display_name
     }
 }
 
 data "azurecaf_name" "rg" {
     name          = local.name
     resource_type = "azurerm_resource_group"
-    suffixes      = concat(local.region_short , local.caf_suffixes)
+    suffixes      = concat(local.region_short, local.caf_suffixes)
     clean_input   = true
 }
 
 resource "azurerm_resource_group" "rg" {
-    name = data.azurecaf_name.rg.result
-    location = local.location
-    tags = "${merge(local.common_tags)}"
+    name     = data.azurecaf_name.rg.result
+    location = module.azure_location.name
+    tags     = local.common_tags
 }
 ```
 
-The **CAF Naming Module** ensures compliance with Microsoft's best practices and abstracts away naming constraints. This makes it easier to scale naming conventions across multiple services. Check out my **GitHub repo** for more details.
+This Terraform module ensures compliance with Microsoft's best practices while simplifying naming enforcement. Check out my [**GitHub repo**](https://github.com/chris4jahn/Azure-Playground) for more details.
 
 ## Conclusion
 
