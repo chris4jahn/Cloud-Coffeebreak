@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Naming Policy"
+title: "Automating Azure Naming Policies"
 date: 2025-03-09
 subtitle: "Avoiding Chaos in the Cloud with Terraform"
 background: '/img/header.webp'
