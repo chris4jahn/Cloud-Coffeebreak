@@ -126,7 +126,7 @@ This Terraform module ensures compliance with Microsoft's best practices while s
 This post is part of a blog series on "How to Azure" using Infrastructure as Code. Over the next weeks these posts will get published and linked here.
 
 1. [**Naming Conventions** – Establish consistent, structured naming to enhance manageability.](../_posts/2025-03-09-automating-azure-naming-policy-avoiding-chaos-in-the-cloud-with-terraform.md)
-2. **Policies** – Define governance policies for security, compliance, and operational standards.
+2. [**Policies** – Define governance policies for security, compliance, and operational standards.](../_posts/2025-04-01-automating-azure-governance-with-policies-define-your-boundaries-in-the-cloud-with-terraform.md)
 3. **RBAC (Role-Based Access Control)** – Implement least privilege access controls for security.
 4. **Hierarchy with Management Groups and Subscriptions** – Organize workloads efficiently.
 5. **Monitoring** – Ensure proactive visibility into performance, security, and health.
